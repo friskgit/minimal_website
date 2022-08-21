@@ -1,12 +1,26 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "listen"
+    url: /listen/
+  - title: "writing" 
+    url: /writing/
+  - title: "works"
+    url: /works/
+  - title: "about"
+    url: /about/
+  - title: "recordings"
+    url: /recordings/
+  - title: "projects"
+    url: /projects/
+
+bio:
+  - title: "Biographies"
+    children:
+      - title: "Biography"
+        url: /docs/quick-start-guide/
+      - title: "Biography, short"
+        url: /docs/structure/
+      - title: "Swedish biography"
+        url: /docs/installation/
+      - title: "Swedish biography, short"
+        url: /docs/upgrading/

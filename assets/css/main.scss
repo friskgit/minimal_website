@@ -7,3 +7,18 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@import "typography";
+
+/* Define standard variables and values for website */
+// $linkcolor: #CC6600;
+//$textcolor: ;
+//$fontsize: 18px;
+
+a {
+    text-decoration: none;
+}
+
+p.update_text {
+    font-size: 0.65em;
+}
