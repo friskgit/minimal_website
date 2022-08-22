@@ -14,13 +14,9 @@ main:
     url: /projects/
 
 bio:
-  - title: "Biographies"
+  - title: "More"
     children:
       - title: "Biography"
-        url: /docs/quick-start-guide/
-      - title: "Biography, short"
-        url: /docs/structure/
-      - title: "Swedish biography"
-        url: /docs/installation/
-      - title: "Swedish biography, short"
-        url: /docs/upgrading/
+        url: /about/bio/
+      - title: "Images"
+        url: /about/images/

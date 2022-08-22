@@ -7,7 +7,7 @@ type: pages
 values:
 layout: home
 author_profile: true
-permalink: /
+permalink: /testindex/
 image_path: assets/images/MV2021_postal_web.jpg
 ---
 This is index.

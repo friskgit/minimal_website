@@ -16,14 +16,15 @@ minimal_mistakes_skin    : "dark" # "default" # "air", "aqua", "contrast", "dark
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Henrik Frisk | music and more"
+title                    : "Henrik Frisk"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "musican, composer and artist" # site tagline that appears below site title in masthead
 name                     : "Henrik Frisk"
 description              : "This site is dedicated to sharing information about what I do as a musician, composer and researcher."
 url                      : "http://www.henrikfrisk.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "friskgit/minimal_website"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+head_scripts             : "https://code.jquery.com/jquery-3.6.0.slim.js"
 teaser                   : "assets/images/orat.jpg"  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/soprano_bw2.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 # logo                     : "assets/images/micro_small.jpg" # path of logo image to display in the masthead, e.g. 
@@ -218,7 +219,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: 
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones

@@ -4,36 +4,65 @@ defaults:
 - scope:
 path: ""
 sidebar:
-  nav: "bio"
+  nav: 
 type: pages
 values:
 layout: single
-author_profile: false
+author_profile: true
 breadcrumbs: false
-permalink: /about/
+permalink: /about/bio/
 ---
-<img src="../assets/images/orat.jpg">
+![mixer image]( /assets/images/mixer_high.jpg ){: .text_nowrap}
 
-This site is dedicated to sharing information about what I do as a musician, composer and researcher. The site is an infinite work-in-progress and perhaps more of an archive than a promotion for myself. I do however use this site, among other things, as a virtual stage posting new recordings and pieces every now and then.
-
-<!-- <a href="about.html">bio</a> |  -->
-<!-- <a href="short_bio.html">short bio</a> |  -->
-<!-- <a href="swed_bio.html">Swedish bio</a> |  -->
-<!-- <a href="short_swed_bio.html">short Swedish bio</a> | -->
-
-
+[  bio  ](#bio){: #bio .btn .btn--primary}
+[short bio](#sbio){: #sbio .btn .btn--primary}
+[swedish bio](#sebio){: #sebio .btn .btn--primary}
+[short swedish bio](#sesbio){: #sesbio .btn .btn--primary}
+  
 <div>
 {% assign bio = site.data.web_bio | sort: 'lang' %}
 {% for member in bio %}
-{% if member.id == 1 %}
-	<h4> {{ member.title }} </h4>
-	<!-- <p style= "font-size: 0.6em"> | updated {{ member.date }} | </p> -->
-	<p class="update_text"> | updated {{ member.date }} | </p>
-	<p> {{ member.text }} </p>
-	<p> {{ member.text2 }} </p>
-	<p> {{ member.text3 }} </p>
-	{% endif %}
+	<div id="bio_{{ member.id }}">
+		<h4> {{ member.title }} </h4>
+		<!-- <p style= "font-size: 0.6em"> | updated {{ member.date }} | </p> -->
+		<p class="update_text"> | updated {{ member.date }} | </p>
+		<p> {{ member.text }} </p>
+		<p> {{ member.text2 }} </p>
+		<p> {{ member.text3 }} </p>
+	</div>
 {% endfor %}
 </div>
 
-<p> {{ page.url }} </p>
+
+<script>
+$( document ).ready(function() {
+	$( "#bio_1" ).show();
+	$( "#bio_2" ).hide();
+	$( "#bio_3" ).hide();
+	$( "#bio_4" ).hide();
+});
+$( "#bio" ).click(function() {
+	$( "#bio_1" ).show();
+	$( "#bio_2" ).hide();
+	$( "#bio_3" ).hide();
+	$( "#bio_4" ).hide();
+});
+$( "#sbio" ).click(function() {
+	$( "#bio_1" ).hide();
+	$( "#bio_2" ).show();
+	$( "#bio_3" ).hide();
+	$( "#bio_4" ).hide();
+});
+$( "#sebio" ).click(function() {
+	$( "#bio_1" ).hide();
+	$( "#bio_2" ).hide();
+	$( "#bio_3" ).show();
+	$( "#bio_4" ).hide();
+});
+$( "#sesbio" ).click(function() {
+	$( "#bio_1" ).hide();
+	$( "#bio_2" ).hide();
+	$( "#bio_3" ).hide();
+	$( "#bio_4" ).show();
+});
+</script>
