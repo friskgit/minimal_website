@@ -300,7 +300,10 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-
+  other_collection:
+    output: true
+    permalink: /:collection/:category/
+    
 # Defaults
 defaults:
   # _posts

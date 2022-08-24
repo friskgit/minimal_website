@@ -1,5 +1,5 @@
 ---
- title: "Att konceptualisera glömskan"
+title: "Att konceptualisera glömskan"
 category: improvised
 updated: 2014-11-28
 layout: single
@@ -35,7 +35,9 @@ gallery:
 ---
 <h2>Program note (EN)</h2>
 Knowledge, intuition, inspiration, understanding, insight, learning, teaching, explanation. Hypersensibility and conditions for learning.To learn and re-learn. 
+
 <h2>Programkommentar (SE)</h2>
 Kunskap, intuition, inspiration, förståelse, insikt, lärdom, att lära, förklara. Hypersensibilitet och förutsättningar för kunskap. Att lära och återinlära. Jag är full av kunskap men aldrig fullärd. Kunskapen står ivägen för intuitionen. Vanan står ivägen för känsligheten. 
+
 
 

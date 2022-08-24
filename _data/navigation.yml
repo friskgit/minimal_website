@@ -11,7 +11,7 @@ main:
   - title: "recordings"
     url: /recordings/
   - title: "projects"
-    url: /projects/
+    url: /portfolio/
 
 bio:
   - title: "More"

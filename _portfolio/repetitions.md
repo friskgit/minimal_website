@@ -38,7 +38,9 @@ This is a version worked out by myself and Stefan &Ouml;stersj&ouml; in January 
 
 
 Viking Eggeling(1880-1925) was an artist and film maker from Lund, Sweden. In Paris in the early 20's, he and Hans Richter started experimenting with the film medium which eventually led to Eggeling completing the "Symphonie Diagonale" in 1924, just before he died in May 1925 at the age of 45.
+
 <h2>Programkommentar (SE)</h2>
 TBA
+
 
 

@@ -60,7 +60,7 @@ sub query_links{
 		    score_size,
 		    created,
 		    changed
-             FROM web_comp WHERE title='Drinking'";
+             FROM web_comp";
     my $sth = $dbh->prepare($sql);
 
     # execute the query
@@ -92,8 +92,8 @@ sub query_links{
 	    }
 	    $commentSE = $row[9];
 	    $commentSE =~ s/<p>|<\/p>/\n/g;
-	    print($commentSE);
-	    print("\n\n");
+	    # print($commentSE);
+	    # print("\n\n");
 	    if(defined $commentSE && $commentSE ne '' && $commentSE ne 'NA') {
 		$commentSE = "<h2>Programkommentar (SE)</h2>\n".$commentSE."\n\n";
 	    } else {

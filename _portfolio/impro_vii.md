@@ -33,7 +33,9 @@ gallery:
 ---
 <h2>Program note (EN)</h2>
 null
+
 <h2>Programkommentar (SE)</h2>
 null
+
 
 

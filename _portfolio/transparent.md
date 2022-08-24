@@ -1,5 +1,5 @@
 ---
- title: "The Transparent I"
+title: "The Transparent I"
 category: chamber
 updated: 2014-01-10
 layout: single
@@ -51,7 +51,9 @@ immortal beauty.
 
 The form of the piece does not have to be linear. The improvised material in the second section can be inserted into the first section in any order at the indicated points (A1, A2, etc and B1/B2, B3/B4, etc). Or, the piece may begin with material from the second section. The form may be rehearsed or improvised in the performance. In the latter case it may be necessary to make up signs for the various elements of the piece. For example, the conductor could indicate a move to a given A section with the left hand and a move to a given B section with the right hand.
 
+
 <h2>Programkommentar (SE)</h2>
 TBA
+
 
 

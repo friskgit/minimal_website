@@ -1,5 +1,5 @@
 ---
- title: "The Six Tones"
+title: "The Six Tones"
 category: chamber
 updated: 2007-10-29
 layout: single
@@ -41,9 +41,13 @@ The four string instruments, dan tranh (a traditional Vietnamese zither), dan ba
  
 'The Six Tones' is dedicated to the Vietnamese master musicians Nguyen Thanh Thuy and Ngo Tra My.
 
+
 <h2>Programkommentar (SE)</h2>
 Det vietnamesiska språket är ett tonalt språk som använder sig av sex olika tonhöjder, eller intonationer. Trion 'The Six Tones' är frukten av ett nära sammarbete mellan Henrik Frisk och Stefan Östersjö samt Thanh Thuy och Tra My som tog sin början under öppna former i april 2006. Den huvudsakliga avsikten var att skapa former för ett möte mellan skilda kulturer på lika villkor. En annan utgångspunkt har varit att nå bortom ett enkelt collageliknande kombinerande av element mot ett mer sammansatt och experimentellt orienterat tonspråk. En serie kollektiva improvisationer över ett material ursprungligen framtaget till gitarrstycket 'Repetition Repeats all other Repetitions' utgör grunden och efter många omarbetningar och vidare improvisationer fann stycket sin slutgiltiga form till uruppförandet i Hanoi, Vietnam i oktober 2006. De tre stränginstrumenten, Dan Tranh (en vietnamesisk cittra), Dan Bau (ett ensträngat traditionellt vietnamesiskt instrument), banjo med e-bow och 10-strängad gitarr formar instrumentariet som bearbetas i live elektroniken.
-</p><p>
+
+
+
 'The Six Tones' är tillägnat Nguyen Thanh Thuy och Ngo Tra My.
+
 
 

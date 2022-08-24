@@ -40,7 +40,9 @@ The word breach in the ambiguous title refers to a multiplicity of ideas regardi
 
 
 The first part of the title, continuous, is both the antinode of the breach and its source of inspiration. Anything wishes to be continuous does so because somewhere there is a breach to be overcome. But here it also refers (probably linguistically incorrect though) to how the breach, in its wanting to be a discontinuity, becomes a continuous breach. The breach, as defined as a discontinuity in space, is a conceptual continuity in time. These are thoughts that emerged during my writing of the piece and they were part of my thinking before I started working. My (obsessive) fascination for the impossibility to truthfully represent a continuous process with a binary machine is a source of inspiration in this music as well as in most of my work.
+
 <h2>Programkommentar (SE)</h2>
 TBA
+
 
 

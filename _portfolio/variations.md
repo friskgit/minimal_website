@@ -65,7 +65,9 @@ Almost bi-polar in its mood instability,
 the edge of dissolution, but always
 finds it way back, ultimately to calm
 resolution.
+
 <h2>Programkommentar (SE)</h2>
 null
+
 
 
