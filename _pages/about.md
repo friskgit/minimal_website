@@ -1,8 +1,4 @@
 ---
-defaults:
-# _pages
-- scope:
-path: ""
 sidebar:
   nav: "bio"
 type: pages

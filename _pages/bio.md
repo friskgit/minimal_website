@@ -1,8 +1,4 @@
 ---
-defaults:
-# _pages
-- scope:
-path: ""
 sidebar:
   nav: 
 type: pages
