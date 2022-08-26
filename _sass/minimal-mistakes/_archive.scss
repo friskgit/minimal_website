@@ -95,6 +95,10 @@
   }
 }
 
+// .my__square {
+//     max-width: 120px;
+// }
+
 .archive__item-caption {
   position: absolute;
   bottom: 0;
@@ -229,7 +233,8 @@
     }
 
     @include breakpoint($medium) {
-      max-height: 120px;
+	// Changed this from 120px to accomodate square CD pictures
+	max-height: 180px;
     }
   }
 }

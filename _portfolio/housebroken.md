@@ -5,8 +5,8 @@
   layout: single
   excerpt: "in collaboration with Stefan Lundgren, comissioned by Kabusa Konsthall"
   header: 
-    image: /assets/images/
-    teaser: /assets/images/
+    image: /assets/images/midsummer_banner.jpg
+    teaser: /assets/images/midsummer_tease.jpg
 sidebar:
 - title: About
   image: /assets/images/

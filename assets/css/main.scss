@@ -22,3 +22,16 @@ a {
 p.update_text {
     font-size: 0.65em;
 }
+
+// Changed this in archive.scss:
+
+  // .archive__item-teaser {
+  //   @include breakpoint($small) {
+  //     max-height: 200px;
+  //   }
+
+  //   @include breakpoint($medium) {
+  // 	// Changed this from 120px to accomodate square CD pictures
+  // 	max-height: 180px;
+  //   }
+  // }

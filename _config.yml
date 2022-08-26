@@ -300,9 +300,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  other_collection:
+  recordings:
     output: true
-    permalink: /:collection/:category/
+    permalink: /:collection/:path/
     
 # Defaults
 defaults:
