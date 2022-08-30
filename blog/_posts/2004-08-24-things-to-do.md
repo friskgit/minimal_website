@@ -2,12 +2,17 @@
  title: "Things to do"
  id: 15
  date: 2004-08-24 21:40:30.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "In preparation for the fall...."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 I will need to try to make a priority list for the fall. The first thing coming up is the seminar with Stefan at MalmÃ¶ Academy of Music. However, the preparation for that shoudn't take to long since I am goning to give the same presentation as I intended to do for the last spring seminar at the Art Academy.
 
@@ -24,4 +29,3 @@ A list of the projects I am involved in:
 
 
 That's all I can think about for now.
-

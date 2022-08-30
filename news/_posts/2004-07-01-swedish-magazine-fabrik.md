@@ -4,10 +4,19 @@
  date: 2004-07-01
  tags: other
  category: news
+ excerpt: "The Swedish Art magazine FABRIK (in Swedish only) has published the score to my piece 'Drive'...."
+ author_profile: false
+ show_date: true
+ image: /assets/images/fabrik.gif
  layout: single
+ link_a: http://www.tidskriftenfabrik.nu/
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/fabrik.gif){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+   ![image-right]({{ page.image }}){: .align-right .news-flash}
+{% endunless %}
 
-The Swedish Art magazine <a href="http://www.tidskriftenfabrik.nu/">FABRIK</a> (in Swedish only) has published the score to my piece "<a href="index.jsp?id=comp">Drive</a>".
+{{ post_url }}
+The Swedish Art magazine [FABRIK]( {{page.link_a}} } %}) (in Swedish only) has published the score to my piece [Drive]({% link _portfolio/drive.md %}).
+
 

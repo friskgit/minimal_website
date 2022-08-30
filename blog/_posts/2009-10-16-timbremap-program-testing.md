@@ -2,12 +2,17 @@
  title: "timbreMap program testing"
  id: 114
  date: 2009-10-16 21:19:48.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "The timbreMap program is part of PhD project and is designed to organize timbral features of its audio input in its 2D output space. It uses the JetNet implementation of Artificial Neural Networks by ..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 The <em>timbreMap</em> program is part of PhD project and is designed to organize timbral features of its audio input in its 2D output space. It uses the JetNet implementation of Artificial Neural Networks by LÃ¶nnblad et al., in particular the Kohonan feature map. The Kohonan net is a self organizing (unsupervised training) feature map widely used in speach recognition. In the <em>timbreMap</em> program the network is fed a Bark scale transform of the input. In the screenshots below the output, the winning node, is represented by the black dot in the center window. There is no pre-conceived mapping of input to output and although a similar input will result in correspondingly similar output the trained weights may differ from and cause a different area in the output to respond to the same sound in two different training sets.
 
@@ -22,7 +27,7 @@ In the following screen capture we can observe the program while it attempts to 
 <script type="text/javascript">
 	var s1 = new SWFObject("http://www.henrikfrisk.com/script/flvplayer.swf","single","290","240","7");
 	s1.addParam("allowfullscreen","true");
-s1.addVariable("file","http://www.henrikfrisk.com/diary/files/sine-edited.flv");
+s1.addVariable("file","/assets/files/diary/sine-edited.flv");
 	s1.addVariable("width","290");
 	s1.addVariable("height","240");
 	s1.write("player1");
@@ -40,7 +45,7 @@ In the next example the network has been trained on six different saxophone samp
 <script type="text/javascript">
 	var s1 = new SWFObject("http://www.henrikfrisk.com/script/flvplayer.swf","single","290","240","7");
 	s1.addParam("allowfullscreen","true");
-s1.addVariable("file","http://www.henrikfrisk.com/diary/files/sax-edited.flv");
+s1.addVariable("file","/assets/files/diary/sax-edited.flv");
 	s1.addVariable("width","290");
 	s1.addVariable("height","240");
 	s1.write("player2");
@@ -50,4 +55,3 @@ s1.addVariable("file","http://www.henrikfrisk.com/diary/files/sax-edited.flv");
 
 
 The mapping was done more or less arbitrarily, merely making sure the parameters would stay within reasonable ranges. Though the mapping is less sucessful on the multiphonics and the noisy growles, it makes perfect sense on the ordinary notes. Letting properties of the input control aspects of the output that belong to the same class of events, in this case seems to imply that the details of the mapping are less important. However for the noisy input, what we perceive as one sound in the input (a growl or a multiphonic), in the synthesis becomes an oscillation between two different sounds. Here, more care in the mapping is needed, or a "smearing" of the data to couteract the "jumpiness" of the output. 
-

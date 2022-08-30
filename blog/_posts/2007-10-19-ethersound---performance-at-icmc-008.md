@@ -2,12 +2,17 @@
  title: "etherSound - performance at ICMC 2008"
  id: 111
  date: 2007-10-19 14:22:30.000000
- tags: tag
- category: comp
+ tags: music
+ category: blog
+ excerpt: "This is a performance of my interactive improvisation environment etherSound (read the programme note) at ICMC 2008 in Copenhagen. The performance took place at Huset - a small concert space in the ce..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 This is a performance of my interactive improvisation environment etherSound (read the <a href="http://www.henrikfrisk.com/index.jsp?metaId=music&id=comp&field=id&query=2&show=1#2" alt="etherSound programme note">programme note</a>) at ICMC 2008 in Copenhagen. The performance took place at Huset - a small concert space in the centre of Copenhagen. 
 
@@ -27,4 +32,3 @@ s1.addVariable("file","http://www.henrikfrisk.com/music/media/etherSound-lo.flv"
 	s1.addVariable("height","240");
 	s1.write("player3");
 </script>
-

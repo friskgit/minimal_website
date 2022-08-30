@@ -2,12 +2,17 @@
  title: "Sucktion: A Cyborgopera by Anne LeBaron"
  id: 124
  date: 2009-10-28 23:23:12.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "On November 13 I will perform in a staging of Anne LeBaron's Cyborgopera Sucktion. I will perform the laptop part which, interestingly enough, is written adding in a lot of freedom for me as a perform..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 On November 13 I will perform in a staging of <a href="http://www.annelebaron.com/">Anne LeBaron's</a> Cyborgopera <em>Sucktion</em>. I will perform the laptop part which, interestingly enough, is written adding in a lot of freedom for me as a performer. The way the part is written, with a mixture of pre-prepared material, instructions for improvisations, and instructions on how to use material from the other performers (soprano and percussion), gives me a lot of liberty.
 
@@ -20,4 +25,3 @@ I have started looking for sounds and tools to use for my performance. I will co
 
 
 I will make stuff available here as I go along, as long as the composer will not object against it. 
-

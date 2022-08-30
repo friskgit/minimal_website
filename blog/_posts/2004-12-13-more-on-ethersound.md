@@ -2,12 +2,17 @@
  title: "More on etherSound"
  id: 40
  date: 2004-12-13 00:54:16.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "In my November 18 post, I mentioned the need for limiting the number of messages that would play back simultaneously. I think the way to solve this is to have two separate life indexes. One local that..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 In my November 18 post, I mentioned the need for limiting the number of messages that would play back simultaneously. I think the way to solve this is to have two separate <em>life</em> indexes. One local that rules the length and impetus of the current message and one global that influences all currently playing messages. Once the global index, which is an indicator on how many messages has been sent over time, rises above a set threshold the music abruptly changes character until the value falls back below the threshold. This also is a way to encourage collective efforts among the performers.
 
@@ -16,4 +21,3 @@ In the new version the voice sample in its original state will not be used. Inst
 
 
 I still need to figure out how rythm and time should be reflected and how the two parts in the music should interact with each other.
-

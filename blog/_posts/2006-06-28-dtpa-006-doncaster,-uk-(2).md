@@ -2,12 +2,17 @@
  title: "DTPA 2006, Doncaster, UK (2)"
  id: 84
  date: 2006-06-28 14:49:05.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "On the third day (my second day...) of the conference Sama'a Al Hashimi, a researcher and PhD candidate at Middlesex University, did a presentation of her work with using non-speech voice as input to ..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 On the third day (my second day...) of the conference <a href="http://www.soundtoys.net/artists/sama-a-al-hsshimi">Sama'a Al Hashimi</a>, a researcher and PhD candidate at Middlesex University, did a presentation of her work with using non-speech voice as input to interaction. She showed some of her work with computer games controlled by the voice of the users. This, according to her, turned the users into performers which is a very similar thought to the one behind my sound installation <a href="http://www.henrikfrisk.com/index.jsp?metaId=res&amp;id=proj&amp;field=title&amp;query=etherSound">etherSound</a>.
 
@@ -27,4 +32,3 @@ The summing up of the conference, led by Dr. Sita Popat was very brief and focus
 <li>Serendipity</li>
 </ul>
 Not all of these make sense to me (see the question marks...) and the real connections still has to be made. All together, this was however a great conference.
-

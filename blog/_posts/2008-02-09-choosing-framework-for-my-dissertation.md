@@ -2,12 +2,17 @@
  title: "Choosing framework for my dissertation"
  id: 116
  date: 2008-02-09 23:25:24.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Though my dissertation was just moved from May to September, I neww desperately to decide on the framework for which the material will be presented in. I want all my work (texts, music, videos, softwa..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 Though my dissertation was just moved from May to September, I neww desperately to decide on the framework for which the material will be presented in. I want all my work (texts, music, videos, software demos) to be contained on a DVD and accessible in a non-linear, inter-linked and searchable fashion. These are my design considerations:
 <ul>
@@ -37,4 +42,3 @@ I'm leaning towards the second solution and I'm working on a proof-of-concept. M
 
 
 Any suggestions are greatly appreciated!
-

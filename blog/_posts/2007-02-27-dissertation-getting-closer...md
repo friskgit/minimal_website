@@ -2,12 +2,17 @@
  title: "Dissertation getting closer..."
  id: 102
  date: 2007-02-27 21:52:24.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Thoughts about the final stages of the planning of the disposition of my PhD project, Interactive Systems in Improvisation and Composition...."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 The time for my dissertation has been set to round about this time next year; February 2008. I will hold a "three quarter seminar", a sandbox dissertation in October 2007. By then most of my stuff should be ready; the basic disposition of my thesis should be set even if not everything is not proof read and final.
 
@@ -54,4 +59,3 @@ I had a plan to go back and re-work some of my pieces that will be a part of the
 
 
 To conclude, it is fascinating (and scary), to observe how a (not very good) thought can cling on and develop and become a creative obstacle like the idea of integration in my dissertation. It is however also rewarding to notice how little it actually took to make me give it up. 
-

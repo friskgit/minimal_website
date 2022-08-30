@@ -2,12 +2,17 @@
  title: "Feedback on March 9 seminar"
  id: 51
  date: 2005-03-12 22:11:54.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "A few comments to a seminar...."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 I was getting some feedback on my work at the presentation I gave yesterday. A few comments that I especially find worth picking up on are briefly discussed below. These are obviously my interpretations on these comments. The text that was the basis for the seminar can be downloaded <a href="http://www.henrikfrisk.com/index.jsp?metaId=res&amp;id=docs">here</a> (<em>etherSound - an interactive soundinstallation</em>, the expanded version)
 
@@ -22,4 +27,3 @@ The instrument aspect of this piece could definitely be greatly expanded - I hav
 <blockquote>If this seminar is a preparation for the dissertation, should it not have a stronger emphasis on the <em>practice</em> rather than the text?</blockquote>
 
 As self-evident as this may seem, to me, after three months of writing, this comment was a real eye opener. It's easy to forget what it is we do and focus in on the academic writing. I should spend more time on trying to find forms of presentation that are more closely tied to the practice.
-

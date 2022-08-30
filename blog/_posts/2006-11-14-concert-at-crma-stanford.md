@@ -2,12 +2,17 @@
  title: "Concert at CRMA, Stanford"
  id: 59
  date: 2006-11-14 19:45:39.000000
- tags: tag
- category: comp
+ tags: music
+ category: blog
+ excerpt: "On April 9 I played a concert together with Per Anders Nilsson at CRMA at Stanford, Palo Alto in California, US. This was the last concert in a series of six concerts that we did together during the s..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 On April 9 I played a concert together with Per Anders Nilsson at CRMA at Stanford, Palo Alto in California, US. This was the last concert in a series of six concerts that we did together during the spring.
 
@@ -20,4 +25,3 @@ I am playing saxophone and laptop and Per Anders is playing laptop. We are both 
 <li><a href="http://www.henrikfrisk.com/music/media/FriskNilssonRM.smil">RealOne</a></li>
 <li><a href="http://www.henrikfrisk.com/index.jsp?metaId=music&amp;id=music&amp;about=1&amp;field=name&amp;query=Live%20at%20CRMA">mp3</a></li>
 </ul>
-

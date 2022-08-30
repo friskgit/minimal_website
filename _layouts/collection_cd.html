@@ -4,7 +4,24 @@ layout: archive
 
 {{ content }}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-    {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %}
+<!-- <h1 class="mt-4">A selections of CDs</h1> -->
+<br />
+{% assign sorted = site.recordings | sort: 'sidebar[1].text' | reverse %}
+{% for cd in sorted %}
+<div class="list__item float-container">    
+    <div class='float-child-l'>
+	<a href='{{ cd.url }}'><h2 class='archive__item-title no_toc cd_title' itemprop='headline'>{{ cd.title }}</h2></a>
+	<p class="archive__item-excerpt cd_excerpt" itemprop='description'>{{ cd.excerpt }}</p>
+	<p class='cd_release archive__item-excerpt cd_excerpt' itemprop='description'>Released {{ cd.sidebar[1].text }}</p>
+    </div>
+    <div class='float-child-r'>
+	<div class='cd_cover'><img width='150px' stye='float: left;' src='{{ cd.header.teaser }}'></img></div>
+    </div>
 </div>
+{% endfor %}
+
+
+<!-- {% assign entries_layout = page.entries_layout | default: 'list' %} -->
+<!-- <div class="entries-{{ entries_layout }}"> -->
+<!--     {% include documents-collection.html collection=page.collection sort_by=page.sort_by sort_order=page.sort_order type=entries_layout %} -->
+<!-- </div> -->

@@ -2,12 +2,17 @@
  title: "Time and rhythm and popular music."
  id: 61
  date: 2006-04-05 11:33:04.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "At a concert in Reykjavik, Iceland on June 5 where Henrik Frendin and myself presented a program of electroacoustic music for electric viola and live electronics we were asked the question if we regar..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 At a concert in Reykjavik, Iceland on June 5 where Henrik Frendin and myself presented a program of electroacoustic music for electric viola and live electronics we were asked the question if we regarded this music as a cross over between western classical tradition and popular music (I believe the term used was &lsquo;low music&rsquo;). Leave alone that the question is stupid it made me think more about a few things relating to the bodily experience of music as compared to the spiritual. These are just thoughts and they may prove to be irrelevant or even wrong but I will want to give it a chance.
 
@@ -18,4 +23,3 @@ Western european dance music and popular music has had a strong rhythmic element
 
 
 Regard this post as a point of departure rather than a statement...
-

@@ -2,12 +2,21 @@
  title: "Frendin/Frisk Duo at Panora 2007"
  id: 110
  date: 2007-10-03 10:17:19.000000
- tags: tag
- category: comp
+ tags: music
+ category: blog
+ excerpt: "Get the Flash Player to see this player.
+
+        var s2 = new SWFObject('http://www.henrikfrisk.com/script/flvplayer.swf','playlist','320','240','7');
+        s2.addParam('allowfullscreen','true');
+ ..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 <p id="player2"><a href="http://www.macromedia.com/go/getflashplayer">Get the Flash Player</a> to see this player.
 
@@ -23,5 +32,4 @@
         s2.addVariable("height","240");
         s2.write("player2");
 </script>
-
 

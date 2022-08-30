@@ -2,12 +2,17 @@
  title: "Presentation on Sep. 14"
  id: 19
  date: 2004-09-14 20:12:30.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Thoughts in preparation for a seminar...."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 I will do a presentation together with my collegue doctorate student Stefan Ã–stersjÃ¶ on September 14. His project is about interpretation and performance of contemporary music and we have found some very interesting overlapping areas between my own project and his. I am also going to write a piece for guitar and computer that we will collaborate on.
 
@@ -19,4 +24,3 @@ This also expands to the somewhat more general question of what the music consti
 These four cases can be divided into two categories where the main difference is whether the <b>score</b> or the <b>sound</b> is the object. This is a critical question for me. I will argue that the sound will have to be the object in any contemporary music, including improvised music. One simple and rational argument for this standpoint is that the system for notation that we have is simply not very well adopted to the notation of anything other than discrete pitches and one dimensional rhythms. On the other hand, any type of traditional musical analysis will be very difficult and vague if based on the sound rather than the score, partly because there is no common language to describe sound precisely.
 
 I will try to expand on this subject tomorrow.
-

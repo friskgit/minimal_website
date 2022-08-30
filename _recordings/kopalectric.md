@@ -5,12 +5,12 @@ category:
 created: 2010-03-15
 updated: 2010-03-15
 layout: single
-excerpt: "A live recording from the Kopasetic festival 2007 in Malmö featuring the great French guitarist Marc Ducret along with the trio <a href='http://www.henrikfrisk.com/index.jsp?metaId=music&id=proj&about=1&field=id&query=1'>lim</a>. This CD also features the bands Elektra Hyde and Anders Nilsson's Aorta."
+excerpt: "A live recording from the Kopasetic festival 2007 in Malmö featuring the great French gui..."
 header: 
-  teaser: /assets/images/cd/KOPAlectric-100.jpg
+  teaser: /assets/images/cd/kopalectric.jpg
 sidebar:
   - title: Group
-    image: /assets/images/cd/KOPAlectric-100.jpg
+    image: /assets/images/cd/kopalectric.jpg
     image-alt: CD cover art
     text: "lim featuring Marc Ducret"
   - title: Year

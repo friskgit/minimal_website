@@ -2,12 +2,20 @@
  title: "lim with Marc Ducret: Lilla Hotellbaren, Stockholm"
  id: 141
  date: 2011-06-19 23:49:01.000000
- tags: tag
- category: comp
+ tags: music
+ category: blog
+ excerpt: "..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
-<iframe width="560" height="349" src="http://www.youtube.com/embed/M-662fgt2sU" frameborder="0" allowfullscreen></iframe>
+
+
+
+{% include video id='M-662fgt2sU' provider='youtube' %}
 

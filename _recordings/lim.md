@@ -5,7 +5,7 @@ category: Jazz
 created: 2004-11-04
 updated: 2004-11-04
 layout: single
-excerpt: "This is the first cd of the collective group <a href='index.jsp?id=proj'>lim</a>. It features seven original tunes, a Charlie Parker original (&ldquo;Constellation&rdquo) and a standard (&ldquo;East of the Sun&rdquo;). The cd was recorded and mixed in <cite>Studio Gulan</cite> in Malmö by <a href='index.jsp?id=proj'>lim</a>."
+excerpt: "This is the first cd of the collective group <a href='index.jsp?id=proj'>lim</a>. It featu..."
 header: 
   teaser: /assets/images/cd/lim_cover.jpg
 sidebar:

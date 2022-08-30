@@ -2,12 +2,17 @@
  title: "Mathematical information theory and cybernetics"
  id: 112
  date: 2007-10-29 15:42:35.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "The reason for the limited activity on this diary at the moment is that I am working (hard) on my dissertation. I will however try to use this as a notebook of ideas, as I'm seeing myself drowning i r..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 The reason for the limited activity on this diary at the moment is that I am working (hard) on my dissertation. I will however try to use this as a notebook of ideas, as I'm seeing myself drowning i references, books, articles that I'm reading and I'm spending more an more time trying to find what I read, where I read it and, where that book is now...
 
@@ -17,4 +22,3 @@ There's an interesting relationship between the mathematical theory of communica
 
 
 Obviously the problem is infinitely more complex than how it is stated above, especiallly when the semiologist is allowed to enter the discussion.
-

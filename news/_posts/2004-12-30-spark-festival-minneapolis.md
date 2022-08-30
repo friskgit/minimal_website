@@ -4,10 +4,17 @@
  date: 2004-12-30
  tags: other
  category: news
+ excerpt: "My paper on etherSound has been accepted for the Spark Festival and Conference. The conference takes place February 17-20 and hosts guests DJ Spooky and Philippe Manoury. I have also been asked to set..."
+ author_profile: false
+ show_date: true
+ image: /assets/images/spacer.gif
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/spacer.gif){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+   ![image-right]({{ page.image }}){: .align-right .news-flash}
+{% endunless %}
 
-My paper on <a href="index.jsp?id=proj&field=is_res&query=1">etherSound</a> has been accepted for the <a href="http://spark.cla.umn.edu/">Spark Festival and Conference</a>. The conference takes place February 17-20 and hosts guests DJ Spooky and Philippe Manoury. I have also been asked to set up <a href="index.jsp?id=comp&field=id&query=2">etherSound</a> during the festival.
+My paper on [etherSound]({% link _portfolio/ether.md %}) has been accepted for the <a href="http://spark.cla.umn.edu/">Spark Festival and Conference</a>. The conference takes place February 17-20 and hosts guests DJ Spooky and Philippe Manoury. I have also been asked to set up  [etherSound]({% link _portfolio/ether.md %}) during the festival.
+
 

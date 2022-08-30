@@ -2,12 +2,18 @@
  title: "Tape part for guitar piece"
  id: 87
  date: 2006-09-05 13:56:00.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "I'm currently working on a piece for guitar and computer entitled 'Repetition repeats all other repetitions'. The piece is for my friend and collegue Stefan &Ouml;stersj&ouml; and it is a part of both..."
+ author_profile: false
+ show_date: true
+ image: http://www.henrikfrisk.com/diary/files/repetition_excerpt1.jpg
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+   ![image-right]({{ page.image }}){: .align-right .news-flash}
+{% endunless %}
 
 I'm currently working on a piece for guitar and computer entitled "Repetition repeats all other repetitions". The piece is for my friend and collegue Stefan &Ouml;stersj&ouml; and it is a part of both our artistic research projects. I will try to post some stuff here in the next few weeks relating to this piece which is a collaborative project between myself and Stefan.
 
@@ -17,10 +23,9 @@ One of the ideas behind this piece is to attempt to bring the concept of interac
 
 
 
-<img alt="repetition_excerpt1.jpg" src="http://www.henrikfrisk.com/diary/files/repetition_excerpt1.jpg" width="1169" height="235" border="0" />
+<img alt="repetition_excerpt1.jpg" src="/assets/files/diary/repetition_excerpt1.jpg" width="1169" height="235" border="0" />
 
 Specifically, for the current composition, I'm trying to bring in this element of uncertainty or 'misunderstanding' and allow for it to happen between the guitar part and the computer part. I will not go into detail on how I will approach this complex area, but below is a link to a sound file which is a rough sketch of what the computer part may be playing. The material used in this excerpt is taken from one of the motives of the guitar part. Listen to the file here (it's not a proper mix, just a sketch...):
 
-<a href="http://www.henrikfrisk.com/diary/files/sketch1_chords_tapepart.mp3">Listen [2.99 MB]</a>
-
+<a href="/assets/files/diary/sketch1_chords_tapepart.mp3">Listen [2.99 MB]</a>
 

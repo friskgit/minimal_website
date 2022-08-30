@@ -2,12 +2,17 @@
  title: "bioSound project"
  id: 18
  date: 2004-08-24 21:40:30.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "As a follow-up to etherSound I have been planning to do a similar project titled bioSound. The point of etherSound was to collect information about what messages where sent to the sound installation, ..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 As a follow-up to <cite>etherSound</cite> I have been planning to do a similar project titled <cite>bioSound</cite>. The point of <cite>etherSound</cite> was to collect information about what messages where sent to the sound installation, what time they were sent and if there was any interaction between the messages (for example, did one message trigger new messages etc).
 
@@ -18,4 +23,3 @@ The sonic events will be produced by large glass tubes, hung in wires and placed
 
 
 To be continued...
-

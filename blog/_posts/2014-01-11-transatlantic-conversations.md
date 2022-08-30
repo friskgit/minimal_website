@@ -2,17 +2,27 @@
  title: "Transatlantic Conversations"
  id: 151
  date: 2014-01-11 17:19:42.000000
- tags: tag
- category: comp
+ tags: music
+ category: blog
+ excerpt: "Maggi Olin and Christine Jensens group Transatlantic Conversations in a live radio broadcast from MalmÃ¶, Sweden on December 5, 2013.
+
+
+www.sr.se | Transatlantic Conversations..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
-Maggi Olin and Christine Jensens group Transatlantic Conversations in a live radio broadcast from MalmÃ¶, Sweden on December 5, 2013.
+Maggi Olin and Christine Jensens group Transatlantic Conversations in a live radio broadcast from Malmö, Sweden on December 5, 2013.
 
 <a href="http://sverigesradio.se/sida/avsnitt/292112?programid=4427&playepisode=292112">
-www.sr.se | Transatlantic Conversations</a><ul>
+www.sr.se | Transatlantic Conversations</a>
+
+<ul>
 <li>Christine Jensen - alto sax / soprano sax</li>
 <li>Maggi Olin - piano</li>
 <li>Fredrik Lindborg - baritonsax, clarinet, tenor saxophone</li>
@@ -25,5 +35,5 @@ www.sr.se | Transatlantic Conversations</a><ul>
 <li>Mattias Welin - bass</li>
 <li>Daniel Fredriksson - drums </li>
 </ul>
-Read <a href="http://www.svd.se/kultur/scen/lyckat-projekt-med-gott-om-tvara-kast_8796996.svd">the review in SvD</a> (in Swedish)
 
+Read <a href="http://www.svd.se/kultur/scen/lyckat-projekt-med-gott-om-tvara-kast_8796996.svd">the review in SvD</a> (in Swedish)

@@ -4,10 +4,18 @@
  date: 2018-11-26
  tags: concert
  category: news
+ excerpt: "The duo is playing at the Club Matrix in Rotterdam at 23:00 on November 22.
+
+More about the duo here...."
+ author_profile: false
+ show_date: true
+ image: /assets/images/spacer.gif
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/spacer.gif){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+   ![image-right]({{ page.image }}){: .align-right .news-flash}
+{% endunless %}
 
 The duo is playing at the Club Matrix in Rotterdam at 23:00 on November 22.
 

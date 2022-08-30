@@ -2,12 +2,19 @@
  title: "Setting up filesharing between OSX and FC5"
  id: 107
  date: 2007-10-01 23:39:52.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Now, this is somewhat unrelated to this blog, but I'll put it here anyways - mainly because I need to make notes about how I did it...
+
+I need to be able to access and share files between all my compu..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 Now, this is somewhat unrelated to this blog, but I'll put it here anyways - mainly because I need to make notes about how I did it...
 
@@ -101,4 +108,3 @@ Now, in OSX use the 'Connect to server...' command and enter:
 
 
 as the address. If everything worked out you will now be prompted for your password and onced this is enetered and verified, the volume will appear in the Finder.
-

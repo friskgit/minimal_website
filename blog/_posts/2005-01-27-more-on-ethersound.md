@@ -2,12 +2,17 @@
  title: "More on etherSound"
  id: 45
  date: 2005-01-27 22:03:56.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Finished the paper on etherSound a few days ago. The biggest problem ended up being that I had to transfer the whole article to Word format whcih is a major problem if you write in LaTeX, as I do. Any..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 Finished the paper on etherSound a few days ago. The biggest problem ended up being that I had to transfer the whole article to Word format whcih is a major problem if you write in LaTeX, as I do. Anyways, it's done and I will eventually post it here.
 
@@ -16,4 +21,3 @@ I am very pleased to have figured out how to use <a href="http://www.cnmat.berke
 
 
 I am now working on yet another article for a seminar next week. This one is an assignment and is discussing the criticism against artistic research. Can art be research? And if it is, what part of it constitutes research? This all is related to the issues brought up at the seminar in Gothenburg last year, that I <a href="http://www.henrikfrisk.com/diary/archives/2004/10/gothenburg_semi.php">commented</a> on.
-

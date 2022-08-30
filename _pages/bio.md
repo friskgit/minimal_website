@@ -19,9 +19,9 @@ permalink: /about/bio/
 {% assign bio = site.data.web_bio | sort: 'lang' %}
 {% for member in bio %}
 	<div id="bio_{{ member.id }}">
+		<div style= "font-size: 0.7em; float: right;"> updated {{ member.date }} </div>
 		<h4> {{ member.title }} </h4>
 		<!-- <p style= "font-size: 0.6em"> | updated {{ member.date }} | </p> -->
-		<p class="update_text"> | updated {{ member.date }} | </p>
 		<p> {{ member.text }} </p>
 		<p> {{ member.text2 }} </p>
 		<p> {{ member.text3 }} </p>

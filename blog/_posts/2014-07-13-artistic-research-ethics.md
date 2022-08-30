@@ -2,12 +2,17 @@
  title: "Artistic research ethics"
  id: 162
  date: 2014-07-13 12:22:32.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Research ethics is a big topic, but in general, ethics are not widely discussed in our field. Not only being a young discipline but also one which departs from the century-old scientific paradigms in ..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 Research ethics is a big topic, but in general, ethics are not widely discussed in our field. A while ago we brought it up in our supervisor's seminar and although the discussions were somewhat hesitant in the beginning we soon noticed a pressing need to dwell on the complexity of the theme. One part of research ethics is how we refer to other pieces of research, what should have a reference and what may be seen as general knowledge within the field. These lines may not be easy to draw but it is my impression that in science, the rule is to refer to the source for almost all knowledge used in the project. 
 
@@ -23,9 +28,8 @@ What does this have to do with ethics? If we establish a tradition and a concept
 
 Back to research misconduct. What is it? <a href="http://www.vr.se">The Swedish Research Council</a> and <a href="http://www.suhf.se/">SUHF</a> has suggested the following definition:
 
-<em>Science misconduct includes acting or omission to act in connection with research, so that research results become false or distorted, or so that a person's contributions to the research get misrepresented. To be held accountable, a person must have performed the misconduct intentionally or shown great negligence. </em>
+<blockquote>Science misconduct includes acting or omission to act in connection with research, so that research results become false or distorted, or so that a person's contributions to the research get misrepresented. To be held accountable, a person must have performed the misconduct intentionally or shown great negligence. </blockquote>
 
 The expression "must have performed the misconduct intentionally or shown great negligence" obviously makes it possible to always say that one wasn't aware of previous work. In combination with the lack of conformity in our field as to forms, formats, methods and theory this may in the end make it clearly impossible to judge wether negligence was intentional or not. The huge and never ending discussion on writing formats in artistic research becomes even more interesting in the context of research ethics. If I am not writing an academic text and use art works as my method, do I at all have to worry about research misconduct? Probably not.
 
 However, my point here is that we should look at this as a possibility rather thatn a restriction. A possibility to allow different approaches to artistic production where carrying on someone elses work should be seen as a legimtimate course, one that should be encouraged. Unless the members of the artistic research community can show that they have a mutual interest in the works produced, no one else will.
-

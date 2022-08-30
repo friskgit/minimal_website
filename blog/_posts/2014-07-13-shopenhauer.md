@@ -2,12 +2,21 @@
  title: "Shopenhauer"
  id: 159
  date: 2014-07-13 15:48:30.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "In the essay On Authorship and Style Shopenhauer writes:
+
+A book can never be anything more than the impression of its author's thoughts.
+
+The destilling of ideas, of thinking through writing, creates..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 In the essay <em>On Authorship and Style</em> Shopenhauer writes:
 
@@ -31,4 +40,3 @@ serious in its deepest sense.</em>
 Now, to make this more complicated, we also have to remember that the "original though" must never be used as an excuse to not think through our matters. Unwillingness to document has to stem from being convinced that the thinking is fully thought through and not from laziness. The enigmatic nature of artistic practice is not an excuse to leave the research work half done.
 
 Both Shopenhauer and Nietsche spoke elitistically about originality and genius. In doing so they also saw the academic world as a bad, as a factory replicating mediocre thinking and they claimed that the true genius has to turn away from the structures of academia. This is important to remember. A reminder that already 150 years ago was there an understanding that the rigid structures of institutions may harm the evolution of artistic and philosophical thinking. We have to claim our right to be artists and resist the demand to show ourselves useful. For us the academia is a space that is useful for us not a space for which we shall show ourselves useful. If we do our work proper we will be regardless.
-

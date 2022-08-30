@@ -2,16 +2,22 @@
  title: "Perspicio - score following in Max/MSP"
  id: 55
  date: 2005-04-17 00:11:13.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Two years ago Stockholm Saxophone Quartet premiered my piece Persicio for saxophone quartet and computer. I am very glad to have a second performance of it in two weeks - especially since the computer..."
+ author_profile: false
+ show_date: true
+ image: http://www.henrikfrisk.com/diary/files/perspicio_excerpt-thumb.gif
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+   ![image-right]({{ page.image }}){: .align-right .news-flash}
+{% endunless %}
 
 Two years ago Stockholm Saxophone Quartet premiered my piece Persicio for saxophone quartet and computer. I am very glad to have a second performance of it in two weeks - especially since the computer went down for the second part of the piece. For this piece I have implemented a basic score following that alligns the computer part with the saxophone quartet in order to avoid click track or pedals. As I am reworking the computer part (I don't want the computer to go down again...) I was astonished at how well the score following actually works.
 
-<a href="http://www.henrikfrisk.com/diary/files/perspicio_excerpt.php" onclick="window.open('http://www.henrikfrisk.com/diary/files/perspicio_excerpt.php','popup','width= 694,height=423,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="http://www.henrikfrisk.com/diary/files/perspicio_excerpt-thumb.gif" width="347" height="211" border="0" /></a>
+<a href="/assets/files/diary/perspicio_excerpt.php" onclick="window.open('/assets/files/diary/perspicio_excerpt.php','popup','width= 694,height=423,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="/assets/files/diary/perspicio_excerpt-thumb.gif" width="347" height="211" border="0" /></a>
 
 
 I have used the same technique in another piece (Det Goda / Det Onda for flute and computer), but for Perspicio I had to deal with the fact that there are four instruments playing simultaneously, something which complicates the matter. The saxophones all have their own close range microphone and by employing some quite radical gating on all four inputs I have a fairly stable signal with output almost only when the respective instrument is playing. The computer only listens to one instrument at a time. In the score excerpt (the score is transposed - Eb alto, Bb tenor, Eb baritone, Bb bass) the cue notes are marked with a horizontal arrow.
@@ -24,4 +30,3 @@ The computer part is done in Max/MSP and I am using Ted Apel's port of Miller Pu
 
 
 For basic performer-computer temporal alignment I can recomend this method. It does have flaws, but the great advantage is the low computation cost and the stability. As soon as I have finished the reworking of the patch I will upload the whole thing here.
-

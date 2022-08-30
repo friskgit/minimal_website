@@ -2,12 +2,17 @@
  title: "Fedora, MacBook Pro, and internal sound"
  id: 123
  date: 2009-10-15 21:17:22.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Since I received my brand new MacBook Pro (17'') I haven't figured out how to get sound routed to the internal speakers using PulseAudio. The headphone outlet produced sound though and for that reason..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 Since I received my brand new MacBook Pro (17'') I haven't figured out how to get sound routed to the internal speakers using PulseAudio. The headphone outlet produced sound though and for that reason I hadn't bothered too much (it was kind of nice to not have to listen to all the little Gnome sounds; swishes and poffs and what not). But tonight I decided to do something about it. 
 
@@ -26,4 +31,3 @@ at the command line. If the right soundcard is not displayed choose the internal
 
 
 That's it. Now there should be sound coming out of the speakers, the volume of which is controllable by the keyboard shortcuts.
-

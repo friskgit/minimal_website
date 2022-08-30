@@ -2,12 +2,17 @@
  title: "Comments on seminar"
  id: 28
  date: 2004-09-16 00:42:13.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Notes about a seminar...."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 The seminar me and my collegue Stefan Ã–stersjÃ¶ did today triggered some interesting discussions. I think that the connection we have found between interpretation (Stefan's subject) and improvisation proved to be a fruitful one and a path that can lead us into new territories.
 
@@ -17,8 +22,7 @@ I don't have answers to any of these questions yet, but I believe I need to look
 
 Slides and notes for the presentation as pdf-files:
 <ul>
-<li><a href="http://www.henrikfrisk.com/diary/files/slides3.pdf">My presentation slides [2043 KB]</a></li>
-<li><a href="http://www.henrikfrisk.com/diary/files/presentation1.pdf">Notes [90 KB]</a></li>
-<li><a href="http://www.henrikfrisk.com/diary/files/slides_work_model.pdf">Common presentation slides [332 KB]</a></li>
+<li><a href="/assets/files/diary/slides3.pdf">My presentation slides [2043 KB]</a></li>
+<li><a href="/assets/files/diary/presentation1.pdf">Notes [90 KB]</a></li>
+<li><a href="/assets/files/diary/slides_work_model.pdf">Common presentation slides [332 KB]</a></li>
 </ul>
-

@@ -1,0 +1,41 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+<!-- {% assign entries_layout = page.entries_layout | default: 'list' %} -->
+
+{% for category in site.categories %}
+<div class="entries-{{ entries_layout }}">
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+       {% if category_name == 'news' %}
+          {% for post in site.categories[category_name] limit: 7 %}
+             {% include archive-single.html type=entries_layout %}
+          {% endfor %}
+       {% endif %}
+  {% endfor %}
+</div>
+
+<a href="#page-title" class="back-to-top">Back to top ↑</a>
+
+<nav class='pagination'> 
+<a href="/news/all/" class="pagination--pager" title="All news">Read all news</a>
+</nav>
+  
+<!-- [For](#2){: .btn .btn--primary .btn--large} -->
+
+<!-- % link news/news.md %} -->
+<div class="my_navigator">
+
+</div>
+
+{% include paginator.html %}

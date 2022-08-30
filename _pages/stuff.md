@@ -10,9 +10,9 @@ author_profile: true
 permalink: /stuff/
 image_path: assets/images/MV2021_postal_web.jpg
 ---
-
 <h4>This is data</h4>
 
+<!-- Display a data file, web_news.yml -->
 # Use of data files
 <div class="newsFlash">
 <ul>

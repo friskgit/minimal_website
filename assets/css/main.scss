@@ -23,6 +23,37 @@ p.update_text {
     font-size: 0.65em;
 }
 
+.float-container {
+    // border: 3px solid #fff;
+    padding: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.float-child-l {
+    width: 70%;
+    float: left;
+    padding: 10px;
+    // border: 2px solid red;
+}
+
+.float-child-r {
+    width: 30%;
+    float: left;
+    padding: 10px;
+    // border: 2px solid red;
+}
+
+.cd_cover {
+    float: right;
+    margin: 0px 15px 15px 0px;
+    // margin-bottom: 0px;
+}
+
+.cd_title {
+    margin-top: 0px;
+}
+
 // Changed this in archive.scss:
 
   // .archive__item-teaser {
@@ -35,3 +66,12 @@ p.update_text {
   // 	max-height: 180px;
   //   }
   // }
+
+// extending existing blockquote selector in base.scss
+blockquote {
+    font-size: 0.7em;
+}
+
+article.no_show {
+    display: none;
+}

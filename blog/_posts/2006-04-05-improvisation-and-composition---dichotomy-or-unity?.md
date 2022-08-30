@@ -2,12 +2,17 @@
  title: "Improvisation and composition - dichotomy or unity?"
  id: 71
  date: 2006-04-05 11:31:48.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "The first draft for the following text was done as a preparation for a presentation I thought I was going to do in Berlin in June. I have touched on these and related issues in other entries (such as ..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 The first draft for the following text was done as a preparation for a presentation I thought I was going to do in Berlin in June. I have touched on these and related issues in other entries (such as <a href="http://www.henrikfrisk.com/diary/archives/2005/05/improvisation_b.php">this one</a>) in this diary, so I may be repeating myself... The discussion below is held with refernece to a piece such as <a href="http://www.henrikfrisk.com/index.jsp?metaId=music&amp;id=music&amp;about=1&amp;field=name&amp;query=Insanity">this</a>. 
 
@@ -19,4 +24,3 @@ If we make a generalized definition, only for the sake of discussion, of &lsquo;
 
 
 Improvisation and composition represents two modes of temporality and it is in the connection between these two modes that the use of the computer becomes significant. The atemporality (composition) of the design and programming of the software and the synchronized temporality of real time performance and live processing. The computer allows for a sort of reflection upon reflection, or, to borrow the terminology from <a href="http://www.seeandseen.net/">Matts Leiderstam</a>; an erroneous mirror reflection.
-

@@ -5,7 +5,7 @@ category: New Music
 created: 2004-06-19
 updated: 2004-06-19
 layout: single
-excerpt: "This cd features <cite>drive</cite>, a piece for Electric Viola Grande - a custom built electronically amplified viola - and computer by Henrik Frisk. The piece was commissioned by Henrik Frendin and premiered at an concert in Malm&ouml; in October 2003."
+excerpt: "This cd features <cite>drive</cite>, a piece for Electric Viola Grande - a custom built el..."
 header: 
   teaser: /assets/images/cd/forza.jpg
 sidebar:

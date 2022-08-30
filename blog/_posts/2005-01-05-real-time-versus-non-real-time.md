@@ -2,12 +2,17 @@
  title: "Real-time versus non real-time"
  id: 41
  date: 2005-01-05 21:19:05.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "I should have realized that, in starting to re-work etherSound, I would end up changing almost everything. Since the new version is multi timbral, i.e. it will play back several messages simultaneousl..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 I should have realized that, in starting to re-work etherSound, I would end up changing almost everything. Since the new version is multi timbral, i.e. it will play back several messages simultaneously, some of the solutions I came up with for the first version will no longer work. I had two GEN23 objects in my CSound score file that read data from a text file written by the JAVA application that processed the incoming messages. It is not a big deal to put this data into additional P-fields of the score file for the non-real time version but the first solution was very elegant in its own way. Also, I would really like to have the real-time and non real-time version to be as compatible as possible when it comes to the instruments. In other words, I should make sure to think about how the real-time version can use the same instrument file to avoid having to redo it once again. Real-time / non real-time should be an option controlled in the JAVA application.
 
@@ -130,4 +135,3 @@ public class CScoreNote {
 
 
 This class allows for keeping each note with all the p-fields in an array, and saves the formatting to the call to <code>serialize</code>. There are obviously a number of ways to achive the same thing, but for what I am trying to do, this seems to be a reasonable way to achieve it.
-

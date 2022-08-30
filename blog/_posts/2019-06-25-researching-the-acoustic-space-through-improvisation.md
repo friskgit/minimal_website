@@ -2,14 +2,24 @@
  title: "Researching the Acoustic Space through improvisation."
  id: 169
  date: 2019-06-25 11:16:09.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "
+On the topic of space and improvisation
+Free Improvisation: Researching the Acoustic Space by Theodor Parker
+
+Free Improvisation: Researching the Acoustic Space is a very relevant contribution to art..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
-<div id="content">
+
+
 <h4 class="title">On the topic of space and improvisation</h4>
 <h2>Free Improvisation: Researching the Acoustic Space by Theodor Parker</h2>
 
@@ -149,6 +159,5 @@ But the same thinking may also be applied to the space as instrument. A reverber
 
 
 The thesis was defended on June 15, 2019 at the Estonian Academy of Music, and I was the opponent.
-
 
 

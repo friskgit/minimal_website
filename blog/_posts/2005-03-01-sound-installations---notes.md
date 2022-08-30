@@ -2,12 +2,17 @@
  title: "Sound installations - notes"
  id: 42
  date: 2005-03-01 10:26:44.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "For some time, I have been looking for references for relating my sound installation etherSound, and my planned project bioSound, to what has been done and what is going on in the field. I will use th..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 For some time, I have been looking for references for relating my sound installation etherSound, and my planned project bioSound, to what has been done and what is going on in the field. I will use this post to make some notes about a few of them.
 
@@ -27,4 +32,3 @@ of listening itself, as a creative act.&rdquo;</blockquote>
 
 
 ...TBC
-

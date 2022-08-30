@@ -78,8 +78,7 @@ sub query_links{
 	    $about = $row[6];
 	    $about =~ s/<p>|<.p>/\n/g;
 	    $about =~ s/"/'/g;
-	    $excerpt = $about;
-	    $excerpt =~ s/^([^.|?|!]+)/$1/g;
+	    $excerpt = substr($about, 0, 90)."...";
 	    $cover = $row[4];
 	    $cover =~ s/bilder\/skivor/\/assets\/images\/cd/;
 	    $credit = $row[5];
@@ -155,6 +154,3 @@ sub write_file {
     close(FH);
     system("dos2unix ".$filename);
 }
-
-
-

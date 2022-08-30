@@ -63,7 +63,7 @@ sub query_links{
 		$row[4].
 		"\n\n";
 	    #	    printf("%s\n", $id);
-	    write_file();
+	    # write_file();
 	    #	    printf("%s", $file_string);
 	    #	    printf("%s\n\n", $row[4]);
 	}

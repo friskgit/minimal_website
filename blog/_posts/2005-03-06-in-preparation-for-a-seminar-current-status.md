@@ -2,12 +2,17 @@
  title: "In preparation for a seminar: Current status"
  id: 49
  date: 2005-03-06 00:17:44.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Interactive music is concerned with two issues: (1) Extracting valid information from input and (2) mapping this input in a meaningful way...."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 In the work that I have done in the last year it has become increasingly obvious to me that, in interactive music (music with human input and computer output) there are two necessarily interconnected issues that needs to be addressed with care. (1) The extracting of information from the input is maybe the most obvious problem to resolve and also the matter most commonly discussed. I have already made a point that the extracted information must be logically connected to the intended output of the interaction. (2) The mapping of the extracted, hopefully valid information on to musical means of expression.
 
@@ -19,4 +24,3 @@ To develop this discussion further the reasons for wanting interaction must be u
 
 
 TBC...
-

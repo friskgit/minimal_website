@@ -2,12 +2,17 @@
  title: "The Mystic Writing Pad"
  id: 139
  date: 2011-04-25 21:48:02.000000
- tags: tag
- category: comp
+ tags: music
+ category: blog
+ excerpt: "This is the first of a series of pieces under the title of The Mystic Writing Pad. Eventually this will be one section in a longer work for the digital ensemble the Trembling Aeroplanes. The recording..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 This is the first of a series of pieces under the title of <a href="http://www.henrikfrisk.com/index.jsp?metaId=music&id=comp&field=id&query=12&show=1#12">The Mystic Writing Pad</a>. Eventually this will be one section in a longer work for the digital ensemble the <a href="http://www.iac.lu.se/projects.aspx#216">Trembling Aeroplanes</a>. The recording was made at the premier at the <a href="http://www.iac.lu.se/">Inter Arts Centre</a> in Malmoe.
 
@@ -29,5 +34,4 @@ This is the first of a series of pieces under the title of <a href="http://www.h
         s2.addVariable("lightcolor","0x557722");
         s2.write("player2");
 </script>
-
 

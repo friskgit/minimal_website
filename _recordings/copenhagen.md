@@ -5,12 +5,12 @@ category: Big Band
 created: 2004-06-15
 updated: 2004-06-15
 layout: single
-excerpt: "A Swedish/Danish joint venture - this big band has existed for some time and plays a mix of argentinian tango and swedish funk."
+excerpt: "A Swedish/Danish joint venture - this big band has existed for some time and plays a mix o..."
 header: 
-  teaser: /assets/images/cd/beijbom.gif
+  teaser: /assets/images/cd/beijbom.jpg
 sidebar:
   - title: Group
-    image: /assets/images/cd/beijbom.gif
+    image: /assets/images/cd/beijbom.jpg
     image-alt: CD cover art
     text: "Beijbom/Kroner Big Band"
   - title: Year

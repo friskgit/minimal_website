@@ -5,12 +5,12 @@ category: Big Band
 created: 2004-06-22
 updated: 2004-06-22
 layout: single
-excerpt: "Jakob Riis is an extraordinary composer who has been writing for <cite>The Orchestra</cite> ever since 1992 when the band started. This cd features his compositions for big band composed between 1994 and 2001. Read more about Jakob Riis and this release <a href='http://www.sonicescape.net/in_absence_of_mind/'>here</a>."
+excerpt: "Jakob Riis is an extraordinary composer who has been writing for <cite>The Orchestra</cite>..."
 header: 
-  teaser: /assets/images/cd/absence.gif
+  teaser: /assets/images/cd/absence.jpg
 sidebar:
   - title: Group
-    image: /assets/images/cd/absence.gif
+    image: /assets/images/cd/absence.jpg
     image-alt: CD cover art
     text: "The Orchestra"
   - title: Year

@@ -5,16 +5,12 @@ category: Jazz
 created: 2006-08-20
 updated: 2006-08-20
 layout: single
-excerpt: "This is <a href='index.jsp?id=proj'>lim</a>'s second cd. Compared to the trio's <a href='http://www.henrikfrisk.com/index.jsp?metaId=music&amp;id=disc&about=1&amp;field=cd_title&amp;query=lim'>first release</a> this one has more of a live feeling to it. It features seven original compositions.
-
-
-
-If you want to buy your copy go <a href='http://www.kopasetic.se/AlbumPP.asp?id=767'>here</a> where you can also listen to a few excerpts."
+excerpt: "This is <a href='/portfolio/lim/'>lim</a>'s second CD. Compared to the trio's ..."
 header: 
-  teaser: /assets/images/cd/superlim100.jpg
+  teaser: /assets/images/cd/superlim.jpg
 sidebar:
   - title: Group
-    image: /assets/images/cd/superlim100.jpg
+    image: /assets/images/cd/superlim.jpg
     image-alt: CD cover art
     text: "lim"
   - title: Year

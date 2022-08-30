@@ -2,12 +2,18 @@
  title: "Networked performance"
  id: 170
  date: 2020-07-12 12:02:42.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "
+The idea of being able to perform at a distant in real time, together with musicians scattered around the world, is not new. It is probably more affordable and easier to accomplish than it was 20 yea..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 
 
@@ -32,6 +38,7 @@ At a time when we take for granted the ability to stream any movie at any time w
 PS. Yes, I do think we should explore <a href="https://discord.com/">Discord</a> as a platform for networked performance, because I have always believed that appropriating existing technologies for artistic purposes is one way to deal with this.
 
 
-</div>
-<div id="postamble" class="status">
+
+
+
 

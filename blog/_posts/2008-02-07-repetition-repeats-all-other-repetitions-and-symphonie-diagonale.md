@@ -2,12 +2,18 @@
  title: "Repetition Repeats all other Repetitions and Symphonie Diagonale"
  id: 117
  date: 2008-02-07 22:49:40.000000
- tags: tag
- category: comp
+ tags: music
+ category: blog
+ excerpt: "
+This is a recording of the version of my piece for Stefan Ã–stersjÃ¶, Repetition Repeats all other Repetitions made for the classic avant garde film Symponie Diagonale by Viking Eggeling. Stefan..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 
 
@@ -29,4 +35,3 @@ s1.addVariable("file","http://www.henrikfrisk.com/music/media/RepetitionDiagonal
 	s1.addVariable("height","240");
 	s1.write("player4");
 </script>
-

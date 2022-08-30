@@ -5,12 +5,12 @@ category: Duo, improv
 created: 2004-06-15
 updated: 2004-06-15
 layout: single
-excerpt: "This is Henrik's second cd for the Canadian label Hornblower. It features longtime friend Richie Beirach in a duo context. A few modern standards mixed with original compositions by both Henrik Frisk and Richie Beirach."
+excerpt: "This is Henrik's second cd for the Canadian label Hornblower. It features longtime friend ..."
 header: 
-  teaser: /assets/images/cd/expressions.gif
+  teaser: /assets/images/cd/expressions.jpg
 sidebar:
   - title: Group
-    image: /assets/images/cd/expressions.gif
+    image: /assets/images/cd/expressions.jpg
     image-alt: CD cover art
     text: "Henrik Frisk/Richie Beirach"
   - title: Year

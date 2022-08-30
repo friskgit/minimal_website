@@ -2,12 +2,17 @@
  title: "IntegraBrowser: An offline webapp to browse IXD files"
  id: 119
  date: 2008-08-31 22:35:47.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "I have now a functional IXD file browser: A webapp to browse information stored in  the Integra eXtensible Document (IXD) format. The IXD is an XML dialect defined in a group of XML Schemas (currently..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 I have now a functional IXD file browser: A webapp to browse information stored in  the Integra eXtensible Document (IXD) format. The IXD is an XML dialect defined in a group of XML Schemas (currently 2) designed to efficiently store and describe information about live electro-acoustic music and related practices. It maps with a database schema (PostgreSQL) on the one hand and a ANSI C library on the other. Much more information may be found at <a href="http://www.integralive.org">www.integralive.org</a>which also links to the <a href="http://sf.net">Sourceforge</a> <a href="http://integralive.svn.sourceforge.net/viewvc/integralive/">project site</a>. There is also a wiki for the Integra development to be <a href="http://http://www.integralive.org/dokuwiki/doku.php/">found here</a>.
 
@@ -26,4 +31,3 @@ One final note note about the IntegraBrowser is that, by reducing the focus on t
 
 
 There will soon be a link to the beta version of the IntegraBrowser here!
-

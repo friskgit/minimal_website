@@ -4,10 +4,16 @@
  date: 2004-12-27
  tags: concert
  category: news
+ excerpt: "I will do three concerts in Sweden together with saxophonist Neil Leonard and laptop performer Per Anders Nilsson in January 2005. The program will consist of improvised electronic and acoustic music...."
+ author_profile: false
+ show_date: true
+ image: /assets/images/spacer.gif
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/spacer.gif){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+   ![image-right]({{ page.image }}){: .align-right .news-flash}
+{% endunless %}
 
 I will do three concerts in Sweden together with saxophonist <a href="http://www.neilleonard.com/index.htm">Neil Leonard</a> and laptop performer Per Anders Nilsson in January 2005. The program will consist of improvised electronic and acoustic music.
 <ul>

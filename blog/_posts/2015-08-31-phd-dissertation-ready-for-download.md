@@ -2,19 +2,24 @@
  title: "PhD dissertation ready for download."
  id: 120
  date: 2015-08-31 11:23:21.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "After many months of work, my PdH dissertation Improvisation, Computers, and Interaction : Rethinking Human-Computer Interaction Through Music (ISSN 1653-8617) is now more or less finished. It is publ..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 After many months of work, my PdH dissertation <em>Improvisation, Computers, and Interaction : Rethinking Human-Computer Interaction Through Music</em> (ISSN 1653-8617) is now more or less finished. It is published digitally and may be downloaded <a href="http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=1239899&fileOId=1242295">here</a> (see the bottom of the page) or <a href="http://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=1239899&fileOId=1242295">click here for a direct download (892MB)</a>.
 
 
 
 
-Read the abstract below or <a href="http://www.henrikfrisk.com/diary/files/Abstract-layout.pdf">download a PDF of it</a>.
+Read the abstract below or <a href="/assets/files/diary/Abstract-layout.pdf">download a PDF of it</a>.
 
 
 <br /><H3>
@@ -28,5 +33,4 @@ Interaction is an integral part of all music. Interaction is part of listening, 
 
 <P>
 Trusting the self-organising aspect of musical improvisation, and allowing it to diffuse into other areas of my practice, constitutes the pivotal change that has radically influenced my artistic practice. The <I>work-in-movement</I>, a concept introduced by Umberto Eco, is (re-)introduced as a work type that encompasses radically open works. The <I>work-in-movement</I>, presented and exemplified by a piece for guitar and computer, requires different modes of representation, as the traditional musical score is too restrictive and is not able to communicate that which is the most central aspect: the collaboration, negotiation and interaction. The Integra framework--comprising a database model and a corresponding XML representation--is proposed as a means to produce annotated scores that carry past performances and versions with it. The notion of the giving up of the <A NAME="70"></A>Self is suggested as the common nominator, the prerequisite, for an improvisatory and self-organising attitude towards musical practice that allows for <I>interaction-as-difference</I>. Only if the <A NAME="72"></A>Self is able and willing to accept the loss of priority of interpretation, willing to give up or disregard faithfulness to ideology or idiomatics, is difference conceivable. Only if one is willing to <I>forget</I> is <I><A NAME="74"></A><A NAME="75"></A>interaction-as-difference</I> made possible. Among the artistic works that have been produced as part of this inquiry are some experimental tools in the form of computer <A NAME="76"></A>software to support the proposed concepts of interactivity and together with the musical works they make up both the object and the method in this PhD project. Contained within the thesis, these sub-projects (all of which are works-in-progress), are used to make inquiries into the larger question of the significance of interaction in the context of artistic practice involving computers.
-
 

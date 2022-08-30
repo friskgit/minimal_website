@@ -1,9 +1,11 @@
 # main links
 main:
+  - title: "news"
+    url: /news/
   - title: "listen"
     url: /listen/
   - title: "writing" 
-    url: /writing/
+    url: /blog/
   - title: "works"
     url: /works/
   - title: "about"

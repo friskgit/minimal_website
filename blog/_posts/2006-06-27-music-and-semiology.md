@@ -2,12 +2,20 @@
  title: "Music and semiology"
  id: 75
  date: 2006-06-27 20:15:33.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "
+...il faut se placer de prime abord sur le terrain de la langue et la prendre pour norme de toutes les autres manifestations du langage.  [de Saussure]
+
+I have been working on the issue of musical se..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 <blockquote>
 ...il faut se placer de prime abord sur le terrain de la langue et la prendre pour norme de toutes les autres manifestations du langage.  [de Saussure]
@@ -16,4 +24,3 @@ I have been working on the issue of musical semiology, or rather, with semiology
 
 
 The way that Eco uses semiology in the examples he brings up in "<em>La struttura assente</em>" feels to like, as a method, semiology would be a very valid choice for me.
-

@@ -2,12 +2,18 @@
  title: "etherSound - the next version"
  id: 39
  date: 2004-11-22 11:48:30.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Comments on the new version of my interactive sound installation etherSound...."
+ author_profile: false
+ show_date: true
+ image: /assets/images/diary/mapping-table-thumb.gif
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+   ![image-right]({{ page.image }}){: .align-right .news-flash}
+{% endunless %}
 
 <a href="http://www.henrikfrisk.com/diary/images/mapping-table.php" onclick="window.open('http://www.henrikfrisk.com/diary/images/mapping-table.php','popup','width=967,height=318,scrollbars=no,resizable=no,toolbar=no,directories=no,location=no,menubar=no,status=no,left=0,top=0'); return false"><img src="http://www.henrikfrisk.com/diary/images/mapping-table-thumb.gif" width="278" height="91" border="0" /></a>
 
@@ -21,4 +27,3 @@ For the second performance in May 2004 the performance space and the processing 
 
 
 In December I am doing a recording of a perfromance of the messages sent to etherSound during the May -04 concert with improvisations by myself and drummer/percussionist Peter Nilsson. Since I am not limited by processing power (real time no necessary) nor acoustics, I am intending to develop and extend both the timbres and the text-to-sound translation. In the computer part I have two distinct instruments with their own distinct expression. What I am trying now is to map them to the letters in each message according to the table. Rhythm and timbre is derived from other parameters and octave placement in voice A is derived from the number of occurences of each letter.
-

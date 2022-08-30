@@ -2,12 +2,17 @@
  title: "Presentation on Sep. 14 (2)"
  id: 20
  date: 2004-08-24 23:58:51.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Notes in preparation for a seminar...."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 Continuation from August 19.
 
@@ -18,4 +23,3 @@ George Lewis <i id="Lewis, George E." title="Improvised Music after 1950: Afrolo
 The score, being a digital, discrete representation of a analog, continuous expression as music is, lends itself much better to rational (eurological) musical analysis than do the sonification of that same score. This also reinforces the &ldquo;<cite>denial of the impact of African-Americans forms on the real-time work of European and Euro-American composers</cite>&rdquo; &#91;Lewis p. 92&#93;.
 
 But, even if accepting the argument that the score is, and must be, the main resource for musical analysis, the sound can still be the object when composing, and it has to be when improvising. In other words, it is not necessarily so that music composed with the sound being the object cannot withstand critical anlysis of the score. The score simply belongs to another class than does the sound.
-

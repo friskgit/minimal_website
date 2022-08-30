@@ -2,12 +2,17 @@
  title: "Back again..."
  id: 64
  date: 2005-08-04 23:34:45.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "After a long and well needed summer brake, and a remake of my studio, I am now slowly returning to work. I have had lots of time to think, and spent some time reading. The harp piece is now at a point..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 After a long and well needed summer brake, and a remake of my studio, I am now slowly returning to work. I have had lots of time to think, and spent some time reading. The harp piece is now at a point where, when it comes to the harp part, I merely need time to sit down and write it out. Hopefully I will get a chance to do some recordings with the harpist to be used in the electronics within the next few days.
 
@@ -19,4 +24,3 @@ As I started working on it, and discussed it with Stefan (who has also written a
 
 
 It may or it may not result in good music, this remains to be heard, but I find the method as such thrilling and inspiring.
-

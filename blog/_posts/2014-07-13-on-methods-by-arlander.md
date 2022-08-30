@@ -2,12 +2,17 @@
  title: "On methods by Arlander"
  id: 160
  date: 2014-07-13 15:47:58.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Reading 'On methods of artistic research' by Anette Arlander in the recent yearbook of artistic research from the Swedish Research Council. It is a overview of some of the many voices heard in the las..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 Reading "On methods of artistic research" by Anette Arlander in the recent yearbook of artistic research from the Swedish Research Council. It is a overview of some of the many voices heard in the last decade on the topic of methods and I am left in a feeling of general despair. The actual article is not to be blamed for my feelings, rather it is being reminded of the never ending argument concerning the nature of artistic research.
 
@@ -20,4 +25,3 @@ In other words, it not at all such a bad idea for a researcher to research his o
 At the end Arlander suggests all artistic researchers to consider her advice to hold on to at least one of the question, the method or the material. I think this is an excellent point that it is well worth remembering. Although I can think of some projects where it would not have been possible - e.g. where there is a movement within the project and the question becomes the method or similar - and while I can also think of some projects where the question or the method is plain missing, it is a powerful way to structure the work.
 
 As a final note I am surprised by the sentence "The easiest way to avoid the inherent duality of the 'do first - write later' model is to alternate between the two." I think the bigger problem with the model is that it differs 'do' from 'write' and gives the latter the priority of research. Research is not writing, not in artistic research, nor in any other kind of research. Unless, of course, we look at 'writing' in the expanded sense, as recording. But that only moves 'write' even closer to 'do' and there is no reason at all to bring up the order as a problem. 
-

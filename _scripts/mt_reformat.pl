@@ -26,9 +26,17 @@ my $text = "";
 my $img = "/assets/images/";
 my @types = ("bio", "comp", "disc", "docs", "news");
 my $type = 1;
+my $img_tag = "";
+my $category_type = "blog";
+my $excerpt;
 
 my $file_string ="";
-
+my $img_start = "{% unless page.image contains 'spacer.gif' %}\n";
+my $img_end = "{% endunless %}";
+my $diary_img = "/assets/images/diary";
+my $diary_file = "/assets/files/diary/";
+my $youtube = "";
+my $yt;
 # query data from the links table
 query_links($dbh, $type);
 
@@ -46,69 +54,77 @@ sub query_links{
 		    entry_title,
 		    entry_text,
 		    entry_text_more,
-		    entry_keywords
+		    entry_keywords,
+		    entry_excerpt
              FROM mt_entry";
+    # WHERE entry_id = 105";
     my $sth = $dbh->prepare($sql);
 
     # execute the query
     $sth->execute();
 
-    if($type == 1) {
-	while(my @row = $sth->fetchrow_array()){
+    while(my @row = $sth->fetchrow_array()) {
+	if($row[1] != 4) {
 	    $file_string = "";
 	    $id = $row[0];
 	    $blog_id = $row[1];
 	    $date = $row[2];
 	    # $tag = $row[3];
-	    $tag = "tag";
+	    if($row[1] == 3) {
+		$tag = "writing";
+	    } else {
+		$tag = "music";
+	    }
 	    $title = $row[4];
 	    $title =~ s/"/'/g;
-	    print($title."\n");
-	    $text = $row[5].$row[6];
-	    $text =~ s/<p>|<.p>/\n/g;
+	    #	    print($title."\n");
+	    $text = $row[5].$row[6]; # combine bothe texts into one.
+	    $text =~ s/<p>|<.p>/\n/g; # remove p:s
+	    $text =~ s/<div.*>|<\/div>/\n/g; # remov div:s
+
+	    $text =~ m%<img[^>]*src="([^"]*)"%s; # Extract the img tag if any
+	    $img_tag = $1; # assign the image tag to img_tag
+
+	    if($img_tag =~ m/^bilder\/(.*?(jpe?g|gif|png))/) {
+		$img_tag = $img.$1;
+	    }
+	    if($img_tag =~ m%^.*?henrikfrisk.com/diary/images%) {
+		$img_tag =~ s/^.*?henrikfrisk\.com\/diary\/images/\/assets\/images\/diary/;
+	    }
+	    $text =~ s/<img.*<\/img>//; # remove image tag
+	    $text =~ s/http:\/\/www.henrikfrisk.com\/diary\/files/\/assets\/files\/diary/g; # change linked file url.
+	    $text =~ s/href=("|')(http:\/\/www.henrikfrisk.com\/documents\/|documents\/)/href="\/assets\/files\/documents/g; # change linked documents url.
+	    $text =~ s/<iframe/\n\n<iframe/g; #fix iframe
+	    
+	    $yt->{yid} = do { $text =~ m%www.youtube.com/embed/(.*?)('|")% ? $1 : undef }; # search for youtube links in the file.
+	    $youtube = "{% include video id='".$yt->{yid}."' provider='youtube' %}\n";
+	    print($yt->{yid});
+	    $text =~ s/<iframe.*?www\.youtube\.com.*?<\/iframe>//; # remove youtube tag
+	    
+	    $excerpt = $row[8];
+	    if($excerpt eq "") { # excerpt field is empty
+		$excerpt = $row[5];
+	    }
+	    $excerpt =~ s/<.*?>//g;
+	    $excerpt = substr($excerpt, 0, 200)."...";
+	    $excerpt =~ s/"/'/g;
+	    $excerpt = "\"".$excerpt."\"";
 	    fm_news_file($date);
 	    $file_string = $file_string.
 		"\n\n".	       
 		$text.
-		"\n\n";
-	    #	    printf("%s\n", $id);
+		"\n";
+	    if( defined $yt->{yid}) {
+		$file_string = $file_string.$youtube."\n";
+	    }
+	    #print($file_string."\n");
 	    write_file();
-	    #	    printf("%s", $file_string);
-	    #	    printf("%s\n\n", $row[4]);
-	}
-    }
-    if($type == 2) {
-	while(my @row = $sth->fetchrow_array()){
-	    $id = $row[0];
-	    $date = $row[1];
-	    $tag = $row[2];
-	    $title = $row[3];
-	    fm_collection($date);
-	    printf("%s\n\n", $row[4]);
 	}
     }
     $sth->finish();
 }
 
-sub fm_collection {
-    fm_common_start();
-    printf("tags: news %s\n", $tag);
-    printf("layout: collection\n");
-    printf("permalink: /portfolio/\n");
-    printf("collection: portfolio\n");
-    printf("entries_layout: grid\n");
-    fm_common_end();
-}
-
-sub fm_news {
-    fm_common_start();
-    printf("tags: news %s\n", $tag);
-    printf("layout: posts\n");
-    printf("permalink: pretty\n");
-    fm_common_end();
-}
 sub fm_news_file {
-    $img =~ s/.*bilder/\/assets\/images/;
     $file_string = "---\n title: \""
 	.$title
 	."\"\n id: "
@@ -119,21 +135,19 @@ sub fm_news_file {
 	." tags: "
 	.$tag
 	."\n category: "
-	.$types[$type]
+	.$category_type
+	."\n excerpt: ".$excerpt
+	."\n author_profile: false\n"
+	." show_date: true\n"
+	." image: "
+	.$img_tag
 	."\n layout: single\n permalink: /:categories/:year/:month/:day/:title/\n";
     $file_string = $file_string."---\n";
-    $file_string = $file_string."![image-right](".$img."){: .align-right .news-flash}";
-}
-
-sub fm_common_start {
-    printf("---\n");
-    printf("title: %s\n", $title);
-    printf("id: %s\n", $id);
-    printf("date: %s\n", $date);
-}
-
-sub fm_common_end {
-    printf("---\n\n");
+    $file_string = $file_string.$img_start;
+    if($img_tag ne "") {
+	$file_string = $file_string."   ![image-right]({{ page.image }}){: .align-right .news-flash}\n";
+    }
+    $file_string = $file_string.$img_end;
 }
 
 sub write_file {
@@ -162,7 +176,8 @@ sub write_file {
     #    print $file_string;
     open(FH, '>', $filename) or die $!;
     print FH $file_string;
-    close(FH);	
+    close(FH);
+    system("dos2unix ".$filename);
 }
 
 

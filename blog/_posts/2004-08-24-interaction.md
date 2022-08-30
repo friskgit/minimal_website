@@ -2,12 +2,17 @@
  title: "Interaction"
  id: 17
  date: 2004-08-24 21:40:30.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Notes on a productive meeting...."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 I had a productive and inspiring meeting with Danish musician, composer and artist Morten Carlsen today. We did a concert in the spring of this year - the first time we played together - and it has turned out we share a lot of the same interests. His long experience with computer interaction in the context of improvisation is really valuable to me and my work. He keeps correspondance and has personal contact with some of the great icons of this tradition and a deep understanding of some of the great issues when it comes to computer interaction.
 
@@ -19,4 +24,3 @@ The session today touched upon several highly interesting subjects, some of whic
 
 
 More closely related to my project is the discussion we had today about the aspect of performance and visual cues for the audience in a concert of interactive music. I cannot afford to ignore this very complex issue. After all, it would be naive to think that it is <cite>only</cite> the sound that matters.
-

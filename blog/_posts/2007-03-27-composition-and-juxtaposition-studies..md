@@ -2,12 +2,19 @@
  title: "Composition and juxtaposition. Studies."
  id: 104
  date: 2007-03-27 23:03:40.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "Find the notes for the introduction to the seminar on 'Repetition Repeats all other Repetitions - a version for 'Symphonie Diagonale' by Viking Eggeling' here. Here's a summary:
+
+In January of this ye..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 Find the notes for the introduction to the seminar on "Repetition Repeats all other Repetitions - a version for 'Symphonie Diagonale' by Viking Eggeling" <a href="http://www.henrikfrisk.com/index.jsp?id=docs&field=id&query=16">here</a>. Here's a summary:
 
@@ -25,4 +32,3 @@ an example of a (not widely used) collage-like artistic work
 method. It's basically the one thing (an existing piece of music) put
 on top of the other (an art video from the 20's) with minor
 adjustments to the music. What is it that makes this interesting?
-

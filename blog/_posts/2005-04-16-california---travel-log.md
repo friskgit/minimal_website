@@ -2,12 +2,17 @@
  title: "California - travel log"
  id: 52
  date: 2005-04-16 01:38:09.000000
- tags: tag
- category: comp
+ tags: writing
+ category: blog
+ excerpt: "I have just spent two weeks in California, playing concerts and meeting musicians and composers. I visited four computer music departments at four universities: CRCA at UCSD, CREATE at UCSB, CNMAT at ..."
+ author_profile: false
+ show_date: true
+ image: 
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
-![image-right](/assets/images/){: .align-right .news-flash}
+{% unless page.image contains 'spacer.gif' %}
+{% endunless %}
 
 I have just spent two weeks in California, playing concerts and meeting musicians and composers. I visited four computer music departments at four universities: <a href="http://www-crca.ucsd.edu/">CRCA</a> at UCSD, <a href="http://www.create.ucsb.edu/create/create.php">CREATE</a> at UCSB, <a href="http://www.cnmat.berkeley.edu/">CNMAT</a> at UC Berkeley and <a href="http://ccrma.stanford.edu/">CCRMA</a> at Stanford. There is an incredible activity at all of these places - three of them are opening new facilities within the next year. This is especially interesting considering our local InterArts Center here in MalmÃ¶. These places are, as far as I understand, related to but independent from the respective music departments. When talking to the people involved in the development and managment I gathered that the need for an independent organisation came from the incompatibility of conservatory traditions with new music and new media. I find this thoughtful in more than one way and maybe it is the only solution to the problems involved when bringing cross disciplinary activities such as computer music and interactive media into the context of traditional music education.
 
@@ -22,4 +27,3 @@ At <a href="http://ccrma.stanford.edu/">CCRMA</a> Chryssie Nanou is a pianist sp
 
 
 I will write more about CNMAT and CREATE in my <a href="http://www.henrikfrisk.com/diary/archives/2005/04/california_trav_1.php">next post</a>.
-
