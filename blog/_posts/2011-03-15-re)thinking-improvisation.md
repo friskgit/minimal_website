@@ -14,7 +14,7 @@
 {% unless page.image contains 'spacer.gif' %}
 {% endunless %}
 
-(Re)Thinking Improvisation is the name of a research project at the <a href="http://www.mhm.lu.se">Malmö Academy of Music</a>, funded by the <a href="http://www.vr.se">Swedish Research Council</a> that I'm a part of. The project takews a broad view on improvisation and the artistic practicies (in music) that are involved with improvisation in different ways. In November of 2011 we will host an exciting event in Malmö for which we have put out a [call for contributions]({% post_url 2011-03-15-artistic-research-a-manifestation-in-improvisation %}) (see below). Please spread the information to sources you that you think might be interested.
+(Re)Thinking Improvisation is the name of a research project at the <a href="http://www.mhm.lu.se">Malmö Academy of Music</a>, funded by the <a href="http://www.vr.se">Swedish Research Council</a> that I'm a part of. The project takews a broad view on improvisation and the artistic practicies (in music) that are involved with improvisation in different ways. In November of 2011 we will host an exciting event in Malmö for which we have put out a [call for contributions]({% post_url /news/2011-03-15-artistic-research-a-manifestation-in-improvisation %}) (see below). Please spread the information to sources you that you think might be interested.
 
 <h3>Call for contributions</h3>
 

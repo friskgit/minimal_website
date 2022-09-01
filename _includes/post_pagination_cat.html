@@ -1,0 +1,59 @@
+  {% assign cat = page.category %}
+  {% assign cat_list = site.categories[cat] %}
+  {% for post in cat_list %}
+{% if post.url == page.url %}
+  <nav class="pagination">
+  	{% assign pOffset = forloop.index0 | minus: 1 %}
+  	{% assign nOffset = pOffset | plus: 2 %}
+  	{% if forloop.first == false %}
+  	{% assign next_post = cat_list[pOffset] %}
+	      <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+  	{% endif %}
+  	{% if forloop.last == false %}
+  	{% assign previous_post = cat_list[nOffset] %}
+	      <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+  	{% endif %}
+    {% break %}
+      </nav>
+  {% endif %}
+{% endfor %}
+
+  <!-- {{ next_post.url }} -->
+  <!-- {{ previous_post.url }} -->
+
+<!-- {% if page.previous or page.next %} -->
+<!--   <nav class="pagination"> -->
+<!--       {% if page.previous %} -->
+      
+<!--       <a href="{{ page.previous.url | relative_url }}" class="pagination--pager" title="{{ page.previous.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a> -->
+<!--     {% else %} -->
+<!--       <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a> -->
+<!--     {% endif %} -->
+<!--     {% if page.next %} -->
+<!--       <a href="{{ page.next.url | relative_url }}" class="pagination--pager" title="{{ page.next.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a> -->
+<!--     {% else %} -->
+<!--       <a href="#" class="pagination--pager disabled">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a> -->
+<!--     {% endif %} -->
+<!--   </nav> -->
+<!-- {% endif %} -->
+
+<!--     {% assign cat = page.categories[0] %} -->
+<!--   {% assign cat_list = site.categories[cat] %} -->
+<!--   {% for post in cat_list %} -->
+<!-- {% if post.url == page.url %} -->
+
+<!--   	{% assign pOffset = forloop.index0 | minus: 1 %} -->
+<!--   	{% assign nOffset = pOffset | plus: 2 %} -->
+<!--   	{% if forloop.first == false %} -->
+<!--   	  {% assign next_post = cat_list[pOffset] %} -->
+<!--   	{% endif %} -->
+<!--   	{% if forloop.last == false %} -->
+<!--   	  {% assign previous_post = cat_list[nOffset] %} -->
+<!--   	{% endif %} -->
+<!--   	{% break %} -->
+<!--   {% endif %} -->
+<!-- {% endfor %} -->

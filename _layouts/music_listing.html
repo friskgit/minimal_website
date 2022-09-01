@@ -5,7 +5,7 @@ layout: archive
 {{ content }}
 
 <ul class="taxonomy__index">
-  {% assign postsInYear = site.categories['blog'] | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+  {% assign postsInYear = site.categories['music'] | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
     <li>
       <a href="#{{ year.name }}">
@@ -16,13 +16,13 @@ layout: archive
 </ul>
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
-{% assign postsByYear = site.categories['blog'] | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
+{% assign postsByYear = site.categories['music'] | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
     <h2 class="archive__subtitle">{{ year.name }}</h2>
     <div class="entries-{{ entries_layout }}">
 	{% for post in year.items %}
-           {% include archive_category_blog.html type=entries_layout %}
+           {% include archive_category_music.html type=entries_layout %}
 	{% endfor %}
     </div>
     <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>

@@ -17,9 +17,10 @@ Pellow is a browser art installation that through sonification and visualisation
    ![image-right]({{ page.image }}){: .align-right .news-flash}
 {% endunless %}
 
-<video width='320' height='240' controls> <source src='img/video/pellow.mov' type='video/quicktime' Your browser does not support the video tag. </video>
 
 The installation Pellow was shown at Tekniska Museet in Stockholm in October 2020.
 Pellow is a browser art installation that through sonification and visualisation lets you explore the web anew. Pellow is an installation by the <a href='https://rethread.art/'>rethread.art</a> collective in collaboration with me.
 <a href='https://wasp-sweden.org/art-installation-under-the-hood-of-a-browser/'>https://wasp-sweden.org/art-installation-under-the-hood-of-a-browser/</a>
+
+![](/assets/files/music/media/pellow.mov)
 

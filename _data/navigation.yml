@@ -1,15 +1,15 @@
 # main links
 main:
+  - title: "about"
+    url: /about/
   - title: "news"
     url: /news/
   - title: "listen"
-    url: /listen/
+    url: /music/
   - title: "writing" 
     url: /blog/
   - title: "works"
     url: /works/
-  - title: "about"
-    url: /about/
   - title: "recordings"
     url: /recordings/
   - title: "projects"

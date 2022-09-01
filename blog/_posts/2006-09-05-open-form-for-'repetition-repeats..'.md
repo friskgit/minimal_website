@@ -4,11 +4,10 @@
  date: 2006-09-05 14:25:09.000000
  tags: writing
  category: blog
- excerpt: "As was mentioned in this post the form for 'Repetition repeats all
- other repetitions' is open in the sense that a the piece can be played in a number of different ways. The inspiration for this form ..."
+ excerpt: "As was mentioned in this post the form for 'Repetition repeats all other repetitions' is open in the sense that a the piece can be played in a number of different ways. The inspiration for this form ..."
  author_profile: false
  show_date: true
- image: http://www.henrikfrisk.com/diary/files/form.jpg
+ image: /assets/images/diary/files/form.jpg
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
@@ -16,7 +15,7 @@
    ![image-right]({{ page.image }}){: .align-right .news-flash}
 {% endunless %}
 
-As was mentioned in <a href="http://www.henrikfrisk.com/diary/archives/2006/09/tape_part_for_g.php">this post</a> the form for "Repetition repeats all
+As was mentioned in [this post]({% post_url /blog/2006-09-05-tape-part-for-guitar-piece %}) the form for "Repetition repeats all
  other repetitions" is open in the sense that a the piece can be played in a number of different ways. The inspiration for this form is a dialog between two people involved in a creative work. Although certain passages are linked together and despite the fact that there is a certain sense of continuity in the material of which the piece is built there is no <em>right</em> way to play the piece.
 
 

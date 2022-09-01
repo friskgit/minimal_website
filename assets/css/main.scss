@@ -23,6 +23,10 @@ p.update_text {
     font-size: 0.65em;
 }
 
+div.update_text {
+    padding-top: 10px;
+}
+
 .float-container {
     // border: 3px solid #fff;
     padding: 5px;
@@ -74,4 +78,21 @@ blockquote {
 
 article.no_show {
     display: none;
+}
+
+// Code listings
+
+.org-source-container {
+    padding: 1em;
+}
+
+pre.src {
+    margin-bottom: 1em;
+    background: #263238;
+    color: #eff;
+    font-family: Monaco,Consolas,"Lucida Console",monospace;
+    font-size: .65em;
+    line-height: 1.8;
+    border-radius: 4px;
+    padding: 1em;
 }

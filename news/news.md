@@ -2,7 +2,7 @@
 title: News
 type: pages
 values:
-layout: news_listing
+layout: full_post_list
 author_profile: true
 category: news
 permalink: /news/all/

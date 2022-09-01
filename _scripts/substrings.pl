@@ -22,5 +22,9 @@ my $text = "<a href='http://www.kopasetic.com'>www.kopasetic.com</a> <br/>
 #print($1);
 
 # my $vim->{foo} = do { $text =~ m%www.vimeo.com/embed/(.*?)'% ? $1 : undef };
-my $yt->{id}   = do { $text =~ m%www.youtube.com/embed/(.*?)'%   ? $1 : undef };;
-print($yt->{id});
+# my $yt->{id}   = do { $text =~ m%www.youtube.com/embed/(.*?)'%   ? $1 : undef };;
+if ($text =~ m// ) {
+    print("yes");
+} else {
+    print("no");
+}

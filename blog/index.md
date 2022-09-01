@@ -2,9 +2,10 @@
 title: Blog
 type: pages
 values:
-layout: blog_list_short
+layout: short_post_list
 author_profile: true	
-category: comp
+category: blog
+all_posts: /blog/all/
 permalink: /blog/
 image_path: assets/images/MV2021_postal_web.jpg
 ---

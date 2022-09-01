@@ -14,7 +14,7 @@ layout: archive
 {% for category in site.categories %}
 <div class="entries-{{ entries_layout }}">
     {% capture category_name %}{{ category | first }}{% endcapture %}
-       {% if category_name == 'blog' %}
+       {% if category_name == page.category %}
           {% for post in site.categories[category_name] limit: 7 %}
              {% include archive-single.html type=entries_layout %}
           {% endfor %}
@@ -24,15 +24,10 @@ layout: archive
 
 <a href="#page-title" class="back-to-top">Back to top ↑</a>
 
-<nav class='pagination'> 
-<a href="/blog/all/" class="pagination--pager" title="All news">Read all news</a>
+<nav class='pagination'>
+    <a href="{{ page.all_posts }}" class="pagination--pager" title="All news">Get all posts</a>
 </nav>
   
 <!-- [For](#2){: .btn .btn--primary .btn--large} -->
-
-<!-- % link news/news.md %} -->
-<div class="my_navigator">
-
-</div>
 
 {% include paginator.html %}

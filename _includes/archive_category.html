@@ -11,7 +11,7 @@
 {% endif %}
 {% assign cat = post.category %}
 
-{% if cat == 'blog' %}
+{% if cat != page.category %}
 {% assign article_style = 'no_show' %}
 {% else %}
 {% assign article_style = 'archive__item' %}

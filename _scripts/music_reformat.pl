@@ -16,7 +16,7 @@ my %attr = ( PrintError=>0,  # turn off error reporting via warn()
     );
 my $dbh = DBI->connect($dsn,$username,$password,\%attr);
 
-my $output_dir = "../blog/_posts/";
+my $output_dir = "../music/_posts/";
 my $id = 0;
 my $blog_id = 0;
 my $date = "2020-01-01";
@@ -27,7 +27,7 @@ my $img = "/assets/images/";
 my @types = ("bio", "comp", "disc", "docs", "news");
 my $type = 1;
 my $img_tag = "";
-my $category_type = "blog";
+my $category_type = "music";
 my $excerpt;
 
 my $file_string ="";
@@ -58,7 +58,7 @@ sub query_links{
 cntnt,
 format,
 upload
-             FROM web_music WHERE id>20";
+             FROM web_music; #WHERE id=6374;
     # WHERE entry_id = 105";
     my $sth = $dbh->prepare($sql);
 
@@ -86,14 +86,20 @@ upload
 	    $img_tag =~ s/^.*?henrikfrisk\.com\/diary\/images/\/assets\/images\/diary/;
 	}
 	$text =~ s/<img.*<\/img>//; # remove image tag
-	$text =~ s/http:\/\/www.henrikfrisk.com\/diary\/files/\/assets\/files\/diary/g; # change linked file url.
+	$text =~ s/http:\/\/www.henrikfrisk.com\/diary\/files/\/assets\/files\/diary/g; # change linked file url: diary/files to files/diary.
 	$text =~ s/href=("|')(http:\/\/www.henrikfrisk.com\/documents\/|documents\/)/href="\/assets\/files\/documents/g; # change linked documents url.
 #	$text =~ s/<iframe/\n\n<iframe/g; #fix iframe
 
+	$text =~ s/http:\/\/www\.henrikfrisk\.com\/music\/media/\/assets\/files\/music\/media/g; # change linked file url.
+	$text =~ s/href=("|')(http:\/\/www.henrikfrisk.com\/music\/)/href="\/assets\/files\//g; # change
+
+	$url =~ s/http:\/\/www\.henrikfrisk\.com\/music\/media/\/assets\/files\/music\/media/g; # change linked file url.
+	$url =~ s/href=("|')(http:\/\/www.henrikfrisk.com\/music\/)/href="\/assets\/files\//g; # change 
 	# Youtube stuff
+
 	$yt->{yid} = do { $text =~ m%www.youtube.com/embed/(.*?)('|")% ? $1 : undef }; # search for youtube links in the file.
 	$youtube = "{% include video id='".$yt->{yid}."' provider='youtube' %}\n";
-	print($yt->{yid});
+
 	$text =~ s/<iframe.*?www\.youtube\.com.*?<\/iframe>//; # remove youtube tag
 	
 	if($excerpt eq "") { # excerpt field is empty
@@ -110,6 +116,25 @@ upload
 	    "\n";
 	if( defined $yt->{yid}) {
 	    $file_string = $file_string.$youtube."\n";
+	}
+	if( defined $url ) {
+	    if($url =~ m/youtu/ ) {
+		print("Is youtube");
+		$url =~ s/^http.*youtu.*\/(.*?)$/$1/;
+	    }
+	    if (index($youtube, $url) != -1) {
+		print($yt->{yid}."\n");
+		print($url."\n");
+		print("URL is duplicate");
+	    } else {
+		if($url =~ m/\//) {
+		    print("url has slash");
+		    $file_string = $file_string."\n![](".$url.")\n";
+		} else {
+		    print("URL is youtube");
+		    $file_string = $file_string."{% include video id='".$url."' provider='youtube' %}\n";
+		}
+	    }
 	}
 	#print($file_string."\n");
 	write_file();
@@ -134,6 +159,8 @@ sub fm_news_file {
 	." show_date: true\n"
 	." image: "
 	.$img_tag
+	."\n media: "
+	.$url
 	."\n related: true"
 	."\n layout: single\n permalink: /:categories/:year/:month/:day/:title/\n";
     $file_string = $file_string."---\n";
