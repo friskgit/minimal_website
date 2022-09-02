@@ -1,12 +1,13 @@
 ---
  title: "Machinic Propositions"
 category: electronic
+tag: work
 updated: 2018-01-16
 layout: single
 excerpt: "An composition for video and electronics."
 header: 
-image: /assets/images/
-teaser: /assets/images/
+  image: /assets/images/mongrel/face-green.jpg
+  teaser: /assets/images/mongrel/face-green_small.jpg
 sidebar:
 - title: About
   image: /assets/images/

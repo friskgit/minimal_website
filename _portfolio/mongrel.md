@@ -6,11 +6,14 @@ updated: 2022-08-23
 layout: single
 excerpt: "The duo Mongrel, consisting of Anders Elberling and Henrik Frisk, has worked together for severeal years on numerous audio/visual projects. The overarching ambition with their work is to critically examine the nature of the relation between audio and video. Their works have been performed in Denmark, Sweden, Belgium, Germany, Portugal and Vietnam among other countries."
 header:
-  image: /assets/images/mongrel/face-green.jpg
-  teaser: /assets/images/mongrel/face-green_small.jpg
+  overlay_image: /assets/images/mongrel/mongrel_banner.jpg
+  teaser: /assets/images/mongrel/dog_mongrel_teaser.jpg
+  actions:
+  - label: "Listen"
+    url: "https://vimeopro.com/feed2212/mongrel"
 sidebar:
   - title: "What?"
-    image: /assets/images/mongrel/green.jpg
+    image: /assets/images/mongrel/henrik_machinic_1.jpg
     image_alt: "Excerpt from Machinic"
     text: "The bastard in between, neither nor"
   - title: "Contact"

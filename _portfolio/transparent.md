@@ -1,12 +1,17 @@
 ---
 title: "The Transparent I"
-category: chamber
+category: chamber work
+tag: composition
 updated: 2014-01-10
 layout: single
 excerpt: "Commissioned by the Swedish Arts Council and Ensemble Ars Nova"
 header: 
-image: /assets/images/
-teaser: /assets/images/
+  overlay_image: /assets/images/transparenti-score_banner.jpg
+  overlay_filter: rgba(108, 108, 156, 0.44)
+  teaser: /assets/images/transparenti-score_teaser.jpg
+  actions:
+  - label: "Listen"
+    url: "/music/2014/01/02/the-transparent-i/"
 sidebar:
 - title: About
   image: /assets/images/

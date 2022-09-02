@@ -4,10 +4,14 @@ category: chamber
 created: 2005-06-07
 updated: 2022-08-23
 layout: single
-excerpt: "comissioned by Henrik Frendin"
+excerpt: "for Electric Viola Grande and electronics"
 header:
-  image: /assets/images/drive_score_banner.jpg
+  overlay_image: /assets/images/drive_score_banner.jpg
+  overlay_filter: rgba(84, 108, 130, 0.54)
   teaser: /assets/images/drive_score_teaser.jpg
+  actions:
+  - label: "Listen"
+    url: "/music/2020/11/26/drinking/"
 sidebar:
   - title: "What?"
     image: /assets/images/drive_score_teaser.jpg

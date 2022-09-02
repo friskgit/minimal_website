@@ -5,12 +5,16 @@ updated: 2009-07-10
 layout: single
 excerpt: "for Copenhagen Art Ensemble and 4 speakers"
 header: 
-image: /assets/images/
-teaser: /assets/images/
+  overlay_image: /assets/images/continuous_score_banner.jpg
+  overlay_filter: rgba(108, 108, 156, 0.44)
+  teaser: /assets/images/continuous_score_teaser.jpg
+  actions:
+  - label: "Listen"
+    url: "/music/2009/07/14/continuous-breach/"
 sidebar:
 - title: About
-  image: /assets/images/
-  image-alt: /assets/images/
+  image: /assets/images/continuous_score_teaser.jpg
+  image-alt: "Continuous Breach score"
   text: "for Copenhagen Art Ensemble and 4 speakers"
 - title: Year
   text: 2009

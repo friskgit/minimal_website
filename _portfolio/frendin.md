@@ -7,7 +7,7 @@ layout: single
 excerpt: "Frendin/Frisk is a duo with that has toured in USA, Canada, Iceland, Germany and Scandinavia. We play a mix of improvised and contemporary music with a sense of humor in performance."
 header:
   image: /assets/images/frendin/banner.jpg
-  teaser: /assets/images/frendin/banner_square.jpg
+  teaser: /assets/images/frendin/banner_square_sepia.jpg
 sidebar:
   - title: "What?"
     image: /assets/images/frendin/frendin_web.jpg
