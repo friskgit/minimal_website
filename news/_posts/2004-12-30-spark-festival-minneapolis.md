@@ -15,6 +15,6 @@
    ![image-right]({{ page.image }}){: .align-right .news-flash}
 {% endunless %}
 
-My paper on [etherSound]({% link _portfolio/ether.md %}) has been accepted for the <a href="http://spark.cla.umn.edu/">Spark Festival and Conference</a>. The conference takes place February 17-20 and hosts guests DJ Spooky and Philippe Manoury. I have also been asked to set up  [etherSound]({% link _portfolio/ether.md %}) during the festival.
+My paper on [etherSound]({% link _portfolio/6_ether.md %}) has been accepted for the <a href="http://spark.cla.umn.edu/">Spark Festival and Conference</a>. The conference takes place February 17-20 and hosts guests DJ Spooky and Philippe Manoury. I have also been asked to set up  [etherSound]({% link _portfolio/6_ether.md %}) during the festival.
 
 

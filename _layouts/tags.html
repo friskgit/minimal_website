@@ -1,43 +1,36 @@
 ---
-layout: archive
+layout: default
 ---
 
 {{ content }}
 
+<!-- How many tags are there -->
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
-  {% if tag[1].size > tags_max %}
-    {% assign tags_max = tag[1].size %}
-  {% endif %}
+{% if tag[1].size > tags_max %}
+{% assign tags_max = tag[1].size %}
+{% endif %}
 {% endfor %}
+<div class="initial-content">
+<div id="main" role="main">
 
-<ul class="taxonomy__index">
-  {% for i in (1..tags_max) reversed %}
-    {% for tag in site.tags %}
-      {% if tag[1].size == i %}
-        <li>
-          <a href="#{{ tag[0] | slugify }}">
-            <strong>{{ tag[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
-          </a>
-        </li>
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-</ul>
-
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-{% for i in (1..tags_max) reversed %}
-  {% for tag in site.tags %}
-    {% if tag[1].size == i %}
-      <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
-        <h2 class="archive__subtitle">{{ tag[0] }}</h2>
-        <div class="entries-{{ entries_layout }}">
-          {% for post in tag.last %}
-            {% include archive-single.html type=entries_layout %}
-          {% endfor %}
-        </div>
+    <div class="archive">
+        <h1 id="page-title" class="page__title">Posts by tag: {{ page.tag }}</h1>
+        {% assign entries_layout = page.entries_layout | default: 'list' %}
+        <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy__section">
+            <h2 class="archive__subtitle">{{ tag[0] }}</h2>
+            <div class="entries-{{ entries_layout }}">
+                {% for post in page.posts %}
+                {% include archive-single.html type=entries_layout %}
+                <!-- <li><a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date_to_string }} | Tags: {{ post | tags }})</li> -->
+                {% endfor %}
+            </div>
+        </section>
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-      </section>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
+    </div>
+</div>
+</div>
+
+<!-- <div id="tag-cloud"> -->
+    <!--     {{ site | tag_cloud }} -->
+    <!-- </div> -->

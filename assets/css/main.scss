@@ -97,6 +97,22 @@ pre.src {
     padding: 1em;
 }
 
+// Fixing alignment of text and image in portfolio pages
 .page__title {
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
+}
+
+// Deselecting the overlay title from the rule above
+
+div.page__hero--overlay > .wrapper > .page__title {
+    margin-bottom: 0.5em;
+}
+
+.page__inner-wrap > section.page__content H2 {
+    margin-top: 0px;
+}
+
+// Adding a line after taxonomy sections
+.taxonomy__section {
+    border-bottom: 1px solid #51555d;
 }

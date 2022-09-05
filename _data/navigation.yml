@@ -12,7 +12,7 @@ main:
     url: /works/
   - title: "recordings"
     url: /recordings/
-  - title: "projects"
+  - title: "projects and works"
     url: /portfolio/
 
 bio:

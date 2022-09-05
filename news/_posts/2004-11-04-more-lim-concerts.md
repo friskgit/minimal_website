@@ -26,6 +26,6 @@ In preparing for our upcoming recording a few more concerts in south of Sweden h
 We very much enyoyed the concert and workshop we did in Helsingborg last Monday and we are looking forward to meet you at these upcoming concerts!
 
 
-[Read more about and listen to lim]({% link _portfolio/lim.md %}.
+[Read more about and listen to lim]({% link _portfolio/12_lim.md %}.
 
 

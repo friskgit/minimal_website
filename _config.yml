@@ -241,7 +241,6 @@ whitelist:
   - jekyll-feed
   - jekyll-include-cache
 
-
 # Archives
 #  Type
 #  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
@@ -269,6 +268,12 @@ jekyll-archives:
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+
+tag_page_layout: tags
+tag_page_dir: tags
+tag_permalink_style: pretty
+tag_page_data:
+  author_profile: true
 
 # category_archive:
 #   type: liquid

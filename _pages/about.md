@@ -1,4 +1,5 @@
 ---
+title: About this site and and about me
 sidebar:
   nav: "bio"
 type: pages
@@ -8,6 +9,7 @@ author_profile: true
 breadcrumbs: false
 permalink: /about/
 ---
+
 ![the big ear]( /assets/images/orat.jpg ){: .text_nowrap}
 
 This site is dedicated to sharing information about what I do as a musician, composer and researcher. The site is an infinite work-in-progress and perhaps more of an archive than a promotion for myself. I do however use this site, among other things, as a virtual stage posting new recordings and pieces every now and then.

@@ -15,6 +15,6 @@
    ![image-right]({{ page.image }}){: .align-right .news-flash}
 {% endunless %}
 
-The cd [Viola con Forza]({% link _recordings/forza.md %})) has been nominated for a Swedish Grammy award. My piece <a href="index.jsp?id=comp">Drive</a> is recorded by Henrik Frendin on that cd. [Drive]({% link _portfolio/drive.md %}) has been played quite a few times now in Swedish, Dutch, German and American radio.
+The cd [Viola con Forza]({% link _recordings/forza.md %})) has been nominated for a Swedish Grammy award. My piece <a href="index.jsp?id=comp">Drive</a> is recorded by Henrik Frendin on that cd. [Drive]({% link _portfolio/2_drive.md %}) has been played quite a few times now in Swedish, Dutch, German and American radio.
 
 

@@ -3,6 +3,7 @@ title: Selections of projects
 layout: collection
 permalink: /test/
 ---
+<!-- Test page -->
 <ul>
 {% for proj in site.portfolio %}
 	{% if proj.category == "electronic" %}

@@ -17,6 +17,6 @@
 {% endunless %}
 
 {{ post_url }}
-The Swedish Art magazine [FABRIK]( {{page.link_a}} } %}) (in Swedish only) has published the score to my piece [Drive]({% link _portfolio/drive.md %}).
+The Swedish Art magazine [FABRIK]( {{page.link_a}} } %}) (in Swedish only) has published the score to my piece [Drive]({% link _portfolio/2_drive.md %}).
 
 
