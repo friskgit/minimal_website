@@ -1,2 +1,18 @@
 <!-- start custom footer snippets -->
+<!-- Script for the drop down effects of the bibliography -->
+<script>
+
+$(document).ready(function() {
+    var str =$(this).attr('id');
+    
+    $(".btnId").unbind('click').bind('click', function(e) {
+        var str = $(this).attr('id');
+        var ret = str.split("_");
+        var id = ret[1];
+        console.log(id);
+        $('#' + id).toggle(1000);
+    });
+});
+</script>
+
 <!-- end custom footer snippets -->

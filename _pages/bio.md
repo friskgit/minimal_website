@@ -3,6 +3,7 @@ sidebar:
   nav: 
 type: pages
 values:
+breadcrumbs: true
 layout: single
 author_profile: true
 breadcrumbs: false

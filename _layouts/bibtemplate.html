@@ -1,0 +1,36 @@
+---
+---
+<div class="row">
+    <!-- Main column  -->
+    <div class="biblio_column biblio_left">
+        {{ reference }}
+        <div class="jekyll_hidden dropDownBibtex" id="{{key}}-bibtex">
+            {% highlight bibtex %}{{entry.bibtex}}{% endhighlight  %}
+        </div>
+        
+        <div class="jekyll_hidden dropDownAbstract" id="{{key}}-abstract">
+            {{entry.abstract}}
+        </div>
+    </div>
+
+    <!-- Right column -->
+    <div class="biblio_column biblio_right">
+        <!-- Abstract button -->
+        {% if entry.abstract %}
+        <button class="bib_btn btnId btnPub--abstract" id="b_{{key}}-abstract" style="outline:none;">Abstr.</button>
+        {% endif %}
+
+        <!-- PDF sup button  -->
+        {% if link %}
+        <a href="{{link}}"><button class="bib_btn btnId btnPub--download" style="outline:none; position:relative;white-space: normal;">PDF</button></a>
+        {% endif %}
+
+        <!-- Bibtex button -->
+        <button class="bib_btn btnId btnPub--BibTex" id="b_{{key}}-bibtex" style="outline:none;">Bib</button>
+
+        <!-- PDF sup button  -->
+        {% if links['sup.pdf'] %}
+        <a href="{{links['sup.pdf']}}"><button class="bib_btn btnId btnPub--supplement" style="outline:none; position:relative;white-space: normal;">Supplement</button></a>
+        {% endif %}
+    </div>
+</div> 

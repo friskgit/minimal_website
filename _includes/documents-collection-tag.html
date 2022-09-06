@@ -1,4 +1,5 @@
-{% assign entries = site[include.collection] | where_exp: "item", "item.tags contains 'composition'" %}
+<!-- {% assign entries = site[include.collection] | where_exp: "item", "item.tags contains 'composition'" %} -->
+{% assign entries = site[include.collection]  %} -->
 
 {% if include.sort_by %}
   {% assign entries = entries | sort: include.sort_by %}
@@ -9,7 +10,8 @@
 {% endif %}
 
 {%- for post in entries -%}
-  {%- unless post.hidden -%}
+{%- unless post.hidden -%}
+{% if post.tag
 {% include archive-single.html %}
   {%- endunless -%}
 {%- endfor -%}

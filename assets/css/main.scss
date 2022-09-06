@@ -116,3 +116,56 @@ div.page__hero--overlay > .wrapper > .page__title {
 .taxonomy__section {
     border-bottom: 1px solid #51555d;
 }
+
+// Bibliography -- start
+// Hidden element
+.jekyll_hidden {
+    display: none;
+}
+
+// Two column layout -- start
+.biblio_column {
+    float: left;
+}
+
+.biblio_left {
+    width: 80%;
+}
+
+.biblio_right {
+    width: 20%
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+// Two column layout -- end
+
+.dropDownAbstract {
+    border-top: 1px solid #51555d;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bib_btn {
+    width: 50px;
+    font-size: 0.6em;
+    float: right;
+}
+
+ol.bibliography {
+    margin-left: 0;
+}
+
+ol.bibliography li {
+    list-style: none
+}
+
+div.row {
+    text-indent: -40px;
+}
+// Bibliography -- end
