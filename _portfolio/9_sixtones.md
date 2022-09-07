@@ -1,7 +1,7 @@
 ---
 title: "The Six Tones"
 category: group
-tag: group 
+tags: group 
 order: 9
 created: 2014-10-09 
 updated: 2022-08-23

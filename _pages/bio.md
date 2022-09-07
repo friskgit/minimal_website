@@ -1,12 +1,13 @@
 ---
+title: Biography
 sidebar:
-  nav: 
+  nav: "bio"
 type: pages
 values:
 breadcrumbs: true
 layout: single
 author_profile: true
-breadcrumbs: false
+breadcrumbs: true
 permalink: /about/bio/
 ---
 ![mixer image]( /assets/images/mixer_high.jpg ){: .text_nowrap}

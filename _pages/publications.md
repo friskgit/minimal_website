@@ -4,6 +4,8 @@ layout: single
 author_profile: true
 breadcrumbs: true
 permalink: /about/publications/
+sidebar:
+  nav: "bio"
 scholar:
   bibliography: references.bib
   sort_by: year

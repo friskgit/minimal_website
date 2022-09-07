@@ -3,7 +3,7 @@ title: "Elle a dansé, il se tourna"
 category: electronic
 order: 16
 date: 2013-10-01
-tag: video electronic composition
+tags: video electronic composition
 layout: single
 excerpt: "An audio-visual work for three screens and eight speakers by Mongrel"
 header:

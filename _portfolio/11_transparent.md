@@ -1,7 +1,7 @@
 ---
 title: "The Transparent I"
 category: chamber work
-tag: composition electronic
+tags: composition electronic
 order: 11
 updated: 2014-01-10
 layout: single

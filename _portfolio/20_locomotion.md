@@ -1,7 +1,7 @@
 ---
   title: "Locomotion"
   category: electronic
-  tag: composition
+  tags: composition
   order: 20
   updated: 2019-04-29
   layout: single

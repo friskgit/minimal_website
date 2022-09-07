@@ -1,7 +1,7 @@
 ---
 title: "Drinking"
 category: chamber
-tag: electronic composition
+tags: electronic composition
 order: 17
 updated: 2014-11-28
 layout: single

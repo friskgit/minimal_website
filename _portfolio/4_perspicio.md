@@ -1,7 +1,7 @@
 ---
   title: "Perspicio"
   category: chamber 
-  tag: composition
+  tags: composition
   order: 4
   updated: 2005-03-14
   layout: single

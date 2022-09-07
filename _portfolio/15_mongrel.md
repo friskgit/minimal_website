@@ -1,7 +1,7 @@
 ---
 title: "Mongrel"
 category: group
-tag: group
+tags: group
 order: 15
 created: 2014-10-09 
 updated: 2022-08-23

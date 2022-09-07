@@ -20,6 +20,10 @@ bio:
     children:
       - title: "Biography"
         url: /about/bio/
+      - title: "Publications"
+        url: /about/publications/
+      - title: "CV"
+        url: /about/cv/
       - title: "Images"
         url: /about/images/
 

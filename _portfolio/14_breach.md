@@ -1,7 +1,7 @@
 ---
 title: "Continuous Breach"
 category: jazz
-tag: composition electronic
+tags: composition electronic
 order: 14
 updated: 2009-07-10
 layout: single

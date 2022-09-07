@@ -1,7 +1,7 @@
 ---
 title: "Image Schema"
 category: electronic
-tag: video composition
+tags: video composition
 order: 21
 updated: 2019-12-01
 layout: single

@@ -1,7 +1,7 @@
 ---
 title: "Repetition Repeats all other Repetitions"
 category: electronic
-tag: composition electronic
+tags: composition electronic
 order: 10
 updated: 2014-01-24
 layout: single

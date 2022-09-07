@@ -19,4 +19,8 @@ This site is dedicated to sharing information about what I do as a musician, com
 <a href="/about/bio/" class="pagination--pager" title="Biography">Biography</a>
 
 <a href="/about/publications/" class="pagination--pager" title="Publications">Publications</a>
+
+<a href="/about/cv/" class="pagination--pager" title="CV">CV</a>
+
+<a href="/about/images/" class="pagination--pager" title="Images">Images</a>
 </nav>

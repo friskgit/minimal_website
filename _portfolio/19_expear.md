@@ -1,7 +1,7 @@
 ---
 title: "expEAR"
 category: group
-tag: group
+tags: group
 order: 19
 created: 2015-03-01 
 updated: 2022-08-23

@@ -1,7 +1,7 @@
 ---
  title: "Tetrachordal Variations"
 category: chamber
-tag: composition
+tags: composition
 order: 5
 updated: 2005-02-25
 layout: single

@@ -1,7 +1,7 @@
 ---
  title: "Improvisations and other pieces"
  category: improvised
- tag: improvisation composition 
+ tags: improvisation composition 
  order: 7
  updated: 2005-05-03
  layout: single

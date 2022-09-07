@@ -1,7 +1,7 @@
 ---
   title: "Music for houses / Housebroken"
   category: electronic
-  tag: installation
+  tags: installation
   updated: 2005-03-14
   layout: single
   order: 1

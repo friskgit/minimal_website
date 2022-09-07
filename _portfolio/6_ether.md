@@ -1,7 +1,7 @@
 ---
 title: "etherSound"
 category: installation
-tag: installation improvisation
+tags: installation improvisation
 order: 6
 created: 2004-06-30
 updated: 2022-08-23

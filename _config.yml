@@ -112,15 +112,15 @@ author:
   location         : "Stocholm, Uppsala"
   email            : "mail@henrikfrisk.com"
   links:
+    - label: "Biography"
+      icon: "fa fa-fw fa-book"
+      url: "/about/bio/"
+    - label: "CV"
+      icon: "fa fa-fw fa-list-ol"
+      url: "/about/cv/"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:mail@henrikfrisk.com"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/hfrisk1/"
@@ -129,7 +129,7 @@ author:
       url: "https://github.com/friskgit"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://instagram.com/frisk"
 
 # Site Footer
 footer:

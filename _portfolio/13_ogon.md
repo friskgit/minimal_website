@@ -1,7 +1,7 @@
 ---
 title: "Månens Gråa Ögon"
 category: jazz
-tag: composition
+tags: composition
 order: 13
 updated: 2014-01-10
 layout: single

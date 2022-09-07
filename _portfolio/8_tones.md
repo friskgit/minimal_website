@@ -2,7 +2,7 @@
 title: "The Six Tones"
 category: chamber
 order: 8
-tag: composition electronics
+tags: composition electronics
 updated: 2007-10-29
 layout: single
 order: 2

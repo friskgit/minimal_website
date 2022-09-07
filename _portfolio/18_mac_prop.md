@@ -1,7 +1,7 @@
 ---
 title: Machinic Propositions
 category: electronic video
-tag: composition video
+tags: composition video
 order: 18
 updated: 2018-01-16
 layout: single
