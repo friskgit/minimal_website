@@ -70,6 +70,27 @@ layout: default
     {% endif %}
   </article>
 
+  {% comment %}<!-- Adds related posts to the page. Relatedness is based on the tags -->{% endcomment %}
+  {% assign posts = site.posts %}
+  {% assign tag_limit = 0 %}
+  {% assign current_tag = page.tags | first %}
+  
+  <div class="page__related">
+      <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
+      <div class="grid__wrapper">
+        {% for post in posts %}
+          {% if post.tags contains current_tag %}
+            {% if post.title != page.title %}
+              {% if tag_limit < 4 %}
+                {% include archive-single.html type="grid" %}
+                {% assign tag_limit = tag_limit | plus: 1 %}
+              {% endif %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+     </div>
+  </div>
+
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">

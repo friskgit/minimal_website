@@ -1,5 +1,5 @@
 ---
- title: "pvm: a linving room improvisation"
+ title: "pvm: a living room improvisation"
  id: 6378
  date: 2020-07-05
  tags: improvised

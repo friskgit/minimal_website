@@ -1,6 +1,7 @@
 ---
 title: Selections of projects
 layout: collection
+breadcrumbs: true
 permalink: /test/
 ---
 <!-- Test page -->

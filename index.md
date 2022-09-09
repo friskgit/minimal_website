@@ -3,6 +3,7 @@ title: "Space, not place"
 layout: splash
 permalink: /splash-page/
 date: 2022-09-05T11:48:41-04:00
+permalink: /
 header:
   overlay_color: "#162c40"
   overlay_filter: "0.5"
@@ -11,26 +12,20 @@ excerpt: "This site is dedicated to sharing music, writing and general informati
 intro: 
   - excerpt: '*Space is the Place* is the name of the Afrofuturist movie featuring Sun Ra from 1972. Sun Ra is a strong influence on me. But now, the challenge, and the new futurism, is to start to disregard place as a confined area and to fully acknowledge that space is som much more than place.'
 feature_row:
-  - image_path: /assets/images/locomotion_screendump-1.png
-    alt: "Text about image"
-    title: "Locomotion"
-    excerpt: "Locomotion is an ongoing project that takes its departure in field recordings made in and around the KMH campus. These are used to create a virtual sonic space that allows the listener to be at several places at the same time, metaphorically speaking."
-    url: "/portfolio/20_locomotion/"
+  - title: "Music"
+    excerpt: "Under the heading of 'listen' there is a large collection of various recordings, tracks from CDs, concert videos and the like. The material is quite unorganized and the main rationale behind publishing is that I publish things that are current. However, I don't take stuff out that is not current."
+    url: "/music/"
+    btn_label: "Browse"
+    btn_class: "btn--primary"
+  - title: "Writing"
+    excerpt: "This is a similarly diverse collection of written texts ranging from technical notes, blog posts on to full articles. Most of these are in English but there are Swedish posts as well. Follow 'about' and on to publications for published articles. Though the list is complete all are not downloadable yet."
+    url: "/blog/"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/drinking_score_p1_teaser.jpg
-    alt: "Drinking for Thanh Thuy"
-    title: "Drinking"
-    excerpt: "*Drinking* is a piece for electronics, voice and Dan Tranh (a Vietnamese zither) for Nguyen Thanh Thuy and is composed on a poem by W. B. Yeats from a concept by Bill Brooks."
-    url: "/portfolio/17_drinking/"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/mongrel/dog_mongrel_teaser.jpg
-    alt: "Mongrel logo"
-    title: "Mongrel"
-    excerpt: 'The duo Mongrel, consisting of Anders Elberling and Henrik Frisk, has worked together for severeal years on numerous audio/visual projects. The overarching ambition with their work is to critically examine the nature of the relation between audio and video. Their works have been performed in Denmark, Sweden, Belgium, Germany, Portugal and Vietnam among other countries.'
-    url: "/portfolio/17_drinking/"
-    btn_label: "Read More"
+  - title: "Projects and works"
+    excerpt: "Under 'projects and works' I have collected compositions as well as current projects (such as groups and other collabortions). Depending on the type of page the material differs a bit. These are in many occassions connected to the the recordings, so this is an entry point to listen to some of my music as well."
+    url: "/portfolio/"
+    btn_label: "Browse"
     btn_class: "btn--primary"
 ---
 
@@ -38,3 +33,8 @@ feature_row:
 
 {% include feature_row %}
 
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<h2 class="archive__item-title">Recent posts</h2>
+{% for post in site.posts limit:5 %}
+  {% include archive-single.html type=entries_layout %}
+{% endfor %}

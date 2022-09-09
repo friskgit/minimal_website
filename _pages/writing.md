@@ -1,11 +1,9 @@
 ---
-defaults:
-# _pages
-- scope:
 path: ""
 type: pages
 values:
 layout: single
+breadcrumbs: true
 author_profile: true	
 permalink: /writing/
 ---

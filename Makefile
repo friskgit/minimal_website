@@ -41,7 +41,6 @@ SERVER 	= henrikfr@henrikfrisk.com:www/
 
 source := $(wildcard *.md)
 cv_source := ~/Documents/info/cv/curriculum/CurriculumVitae-2022.tex
-htlatex_arg := "xhtml,html5,mathml,charset=utf-8" " -cunihtf -utf8"
 
 #source := utvalda-publikationer.tex
 
@@ -72,7 +71,10 @@ echo_src:
 .PHONY: echo_pdf
 
 echo_pdf:
-	echo $(pdfs)
+	echo $(pdfs) 
+
+cp_cv: $(cv_source)
+	cp $(cv_source) $(HTML_DIR)/curri.html
 
 htlatex: $(cv_source)
 	$(HTLATEX) $(cv_source) $(htlatex_arg)

@@ -29,4 +29,5 @@ gem 'jekyll-tagging'
 group :jekyll_plugins do
   gem 'jekyll-spaceship'
   gem 'jekyll-scholar'
+#  gem 'jekyll-algolia'
 end

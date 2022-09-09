@@ -8,8 +8,6 @@ main:
     url: /music/
   - title: "writing" 
     url: /blog/
-  - title: "works"
-    url: /works/
   - title: "recordings"
     url: /recordings/
   - title: "projects and works"

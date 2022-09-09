@@ -12,7 +12,7 @@
 <!-- Get all the entries, sort out those that are not compositions, nor hidden. -->
 {%- for post in entries -%}
 {%- unless post.hidden -%}
-{% if post.tags contains 'composition' %}
+{% if post.tags contains include.tag limit:include.max_tags %}
 {% include archive-single.html %}
 {% endif %}
   {%- endunless -%}

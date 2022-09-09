@@ -1,17 +1,20 @@
 ---
-  title: "Locomotion"
-  category: electronic
-  tags: composition
-  order: 20
-  updated: 2019-04-29
-  layout: single
-  excerpt: "A concert installation for 60 speakers"
-  header: 
-    overlay_image: /assets/images/locomotion_banner.png
-    teaser: /assets/images/locomotion_screendump-1.png
-  sidebar:
+title: "Locomotion"
+category: electronic
+tags: composition
+order: 20
+updated: 2019-04-29
+layout: single
+excerpt: A concert installation for 60 speakers.
+header: 
+  overlay_image: /assets/images/locomotion_banner.png
+  teaser: /assets/images/locomotion_screendump-1.jpg
+  actions: 
+  - label: "Listen"
+    url: "/music/2022/09/08/locomotion/"
+sidebar:
   - title: About
-    image: /assets/images/locomotion_screendump-1.png
+    image: /assets/images/locomotion_screendump-1.jpg
     image-alt: "Text about image"
     text: "A concert installation for 60 speakers"
   - title: Year
@@ -22,23 +25,23 @@
     text: KMH, Stockholm
   - title: Record updated
     text: 2019-04-29
-  gallery:
-  - url: /assets/images/locomotion_screendump-1.png
-    image_path: /assets/images/locomotion_screendump-1.png
+gallery:
+  - url: /assets/images/locomotion_screendump-1.jpg
+    image_path: /assets/images/locomotion_screendump-1.jpg
     alt: "Text about image"
-  - url: /assets/images/locomotion_screendump-3.png
-    image_path: /assets/images/locomotion_screendump-3.png
+  - url: /assets/images/locomotion_screendump-3.jpg
+    image_path: /assets/images/locomotion_screendump-3.jpg
     alt: "Text about image"
-  - url: /assets/images/locomotion_screendump-6.png
-    image_path: /assets/images/locomotion_screendump-6.png
+  - url: /assets/images/locomotion_screendump-6.jpg
+    image_path: /assets/images/locomotion_screendump-6.jpg
     alt: "Text about image"
 ---
-<h2>Program note (EN)</h2>
+
+## Program note (EN)
 Locomotion is an ongoing project that takes its departure in field recordings made in and around the KMH campus. These are used to create a virtual sonic space that allows the listener to be at several places at the same time, metaphorically speaking. It is also an attempt to find the musicality in the the fieldrecordings and attempt to draw the listener into a state of musical listening; in short to explore the space inbetween the sonic and the musical spaces. The piece is both a concert piece and an installation that invites the listener to move between two concert halls and the space inbetween these.
 
-![](/assets/files/music/media/locomotion.mp4?width=400)
 
-<h2>Programkommentar (SE)</h2>
+## Programkommentar (SE)
 Locomotion är samtidigt en installation och en komposition och ett projekt under utveckling. Grundidén är att utforska spänningen mellan ljudmiljöer som har ett tydligt sammanhang och en tydlig plats, och ljud som inte har det. Ett relaterat spänningsfält finns mellan virtuella ljud - ljud som saknar en omdelbar koppling till sin källa - och ljud vars källa är nära nog omöjlig att bortse ifrån. Målsättningen är mångbottnad men är grundad i sökandet efter den musikaliska potentialen i varje enskilt ljud. Tanken är att lyssnaren ska kunna höra hela ljudet, ljudet och dess härkomst, /och/ det musikaliserade ljudet samtidigt. Ett hörande som i bästa fall utmanar de rumsliga aspekterna i ljuden och möjliggör förflyttningar mellan ljudens och lyssnarens egna och gemensamma rum.
 
 

@@ -7,5 +7,6 @@ author_profile: true
 category: blog
 all_posts: /blog/all/
 permalink: /blog/
+breadcrumbs: true
 image_path: assets/images/MV2021_postal_web.jpg
 ---

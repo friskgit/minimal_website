@@ -7,5 +7,6 @@ author_profile: true
 category: music
 all_posts: /music/all/
 permalink: /music/
+breadcrumbs: true
 image_path: assets/images/MV2021_postal_web.jpg
 ---

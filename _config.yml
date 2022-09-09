@@ -25,7 +25,7 @@ url                      : "http://www.henrikfrisk.com" # the base hostname & pr
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "friskgit/minimal_website"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 head_scripts             : "https://code.jquery.com/jquery-3.6.0.slim.js"
-teaser                   : "assets/images/orat.jpg"  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # "assets/images/orat.jpg"  # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/images/soprano_bw2.jpg" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 # logo                     : "assets/images/micro_small.jpg" # path of logo image to display in the masthead, e.g. 
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -118,9 +118,6 @@ author:
     - label: "CV"
       icon: "fa fa-fw fa-list-ol"
       url: "/about/cv/"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:mail@henrikfrisk.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://www.facebook.com/hfrisk1/"
@@ -322,7 +319,7 @@ defaults:
       read_time: false
       comments: true
       share: true
-      related: true
+      related: false
       show_date: true
 
 defaults:
