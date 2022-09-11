@@ -29,8 +29,10 @@ AUTHOR := "Henrik Frisk, mail<AT>henrikfrisk<DOT>com"
 BIN	= /usr/bin
 PDFLATEX = /usr/bin/pdflatex
 HTLATEX = /usr/bin/htlatex
-RSYNC	= $(BIN)/rsync -avzr --delete
+RSYNC	= $(BIN)/rsync -avuzhr --delete
 WC = /usr/bin/wc
+GEM = /home/henrikfr/gems
+JEKYLL = $(GEM)/bin/jekyll
 
 PS        = $(source:.tex=.ps)
 BBL       =  $(source:.tex=.bbl)
@@ -61,9 +63,10 @@ LOGS      = $(OUTPUT_DIR)/$(AUX) $(OUTPUT_DIR)/$(BLG) $(OUTPUT_DIR)/$(LOG)
 PS        = $(source:.tex=.ps)
 PDF	      = $(source:.tex=.pdf)
 
-all: 
+all: site sync
 
-.PHONY: echo_src
+.PHONY: echo_src sync
+
 echo_src:
 	echo $(source)
 	$(HTLATEX) $(cv_source) $(htlatex_arg)
@@ -80,10 +83,11 @@ htlatex: $(cv_source)
 	$(HTLATEX) $(cv_source) $(htlatex_arg)
 # Some latex file needs to be run at least three times to be sure to resolve all references.
 
+site :
+	$(JEKYLL) build
 
-sync : pdf html
-	$(RSYNC) -e "/usr/bin/ssh -i /home/henrikfr/henrikfrisk_com_rsync_key" --exclude "*~" --exclude "WARNINGS" $(HTML_DIR) $(SERVER)
-	$(RSYNC) -e "/usr/bin/ssh -i /home/henrikfr/henrikfrisk_com_rsync_key" $(OUTPUT_DIR)/$(source:.tex=.pdf) $(SERVER)
+sync : site
+	$(RSYNC) $(SRC_DIR)/ $(SERVER)
 
 clean:
-	rm -f  $(LOGS) $(OUTPUT_DIR)/$(PS) $(OUTPUT_DIR)/$(PDF) $(OUTPUT_DIR)/$(DVI) $(OUTPUT_DIR)/$(BBL) *~ $(HTML_DIR)/*
+	$(JEKYLL) clean
