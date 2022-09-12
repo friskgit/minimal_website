@@ -2,7 +2,7 @@
  title: "Locomotion"
  id: 9100
  date: 2022-09-08
- tags: composition
+ tags: composed
  category: music
  excerpt: A performance of Locomotion.
  show_date: true

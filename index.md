@@ -1,5 +1,5 @@
 ---
-title: "Space, not place"
+title: "Space"
 layout: splash
 permalink: /splash-page/
 date: 2022-09-05T11:48:41-04:00
@@ -8,9 +8,9 @@ header:
   overlay_color: "#162c40"
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
-excerpt: "This site is dedicated to sharing music, writing and general information about what I do as a musician, composer and researcher. The site is an infinite work-in-progress and perhaps more of an archive than a promotion for myself."
+excerpt: "music, text and stuff about what I do as a musician, composer and researcher."
 intro: 
-  - excerpt: '*Space is the Place* is the name of the Afrofuturist movie featuring Sun Ra from 1972. Sun Ra is a strong influence on me. But now, the challenge, and the new futurism, is to find that space is not *a* place, but something completely different and much more. Place is excluding but space is inclusive.  start to disregard place as a confined area and to fully acknowledge that space is so much more than place.'
+  - excerpt: '*Space is the Place* is the name of the Afrofuturist movie featuring Sun Ra from 1972. Sun Ra is a strong influence on me. The new futurism is to find space that is not *a* place, but something open. Place is excluding but space is inclusive. Space for the environment, art and thinking. The future is space.'
 feature_row:
   - title: "Music"
     excerpt: "Under the heading of 'listen' there is a large collection of various recordings, tracks from CDs, concert videos and the like. The material is quite unorganized and the main rationale behind publishing is that I publish things that are current. However, I don't take stuff out that is not current."
@@ -34,6 +34,7 @@ feature_row:
 {% include feature_row %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
+<a href="/tags/" class="btn btn--primary btn--small right">browse by tag</a>
 <h2 class="archive__item-title">Recent posts</h2>
 {% for post in site.posts limit:5 %}
   {% include archive-single.html type=entries_layout %}
