@@ -31,7 +31,7 @@ PDFLATEX = /usr/bin/pdflatex
 HTLATEX = /usr/bin/htlatex
 RSYNC	= $(BIN)/rsync -avuzhr --delete
 WC = /usr/bin/wc
-GEM = /home/henrikfr/gems
+GEM = ~/gems
 JEKYLL = $(GEM)/bin/jekyll
 
 PS        = $(source:.tex=.ps)
@@ -68,7 +68,7 @@ all: site sync
 .PHONY: echo_src sync
 
 echo_src:
-	echo $(source)
+	echo $(JEKYLL)
 	$(HTLATEX) $(cv_source) $(htlatex_arg)
 
 .PHONY: echo_pdf

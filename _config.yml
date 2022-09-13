@@ -216,7 +216,7 @@ sass:
 
 
 # Outputting
-permalink: 
+permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -255,16 +255,16 @@ category_archive:
 tag_archive:
   type: jekyll-archives
   path: /tags/
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: pretty
+#     tag: /tags/:name/
 
 tag_page_layout: tags
 tag_page_dir: tags

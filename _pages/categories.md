@@ -1,16 +1,7 @@
 ---
-title: Selections of projects
-layout: collection
+title: Posts by categories
+layout: categories
+author_profile: true
 breadcrumbs: true
-permalink: /test/
+permalink: /categories/
 ---
-<!-- Test page -->
-<ul>
-{% for proj in site.portfolio %}
-	{% if proj.category == "electronic" %}
-	<div class="cookie">
-		<li>{{ proj.title }}</li>
-	</div>
-	{% endif %}
-{% endfor %}
-</ul>
