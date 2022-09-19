@@ -2,9 +2,11 @@
   title: "Perspicio"
   category: chamber 
   tags: composition
+  related: true
+  related_tag: perspicio
   order: 4
   updated: 2005-03-14
-  layout: single
+  layout: single_portfolio
   excerpt: "comissioned by Stockholm Saxophone Quartet"
   header: 
     teaser: /assets/images/ssq.jpeg

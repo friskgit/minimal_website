@@ -2,9 +2,11 @@
 title: "Repetition Repeats all other Repetitions"
 category: electronic
 tags: composition electronic
+related: true
+related_tag: repetition
 order: 10
 updated: 2014-01-24
-layout: single
+layout: single_portfolio
 excerpt: "a piece for 10-stinged guitar and electronics"
 header: 
   overlay_image: /assets/images/repetition_banner.jpg

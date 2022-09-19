@@ -2,9 +2,11 @@
  title: "Tetrachordal Variations"
 category: chamber
 tags: composition
+related: true
+related_tag: tetra
 order: 5
 updated: 2005-02-25
-layout: single
+layout: single_portfolio
 excerpt: "A short saxophone concerto for strings and soloists that was written for myself and Richie Beirach as soloists."
 header: 
 image: /assets/images/

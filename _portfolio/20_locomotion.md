@@ -2,9 +2,11 @@
 title: "Locomotion"
 category: electronic
 tags: composition
+related: true
+related_tag: locomotion
 order: 20
 updated: 2019-04-29
-layout: single
+layout: single_portfolio
 excerpt: A concert installation for 60 speakers.
 header: 
   overlay_image: /assets/images/locomotion_banner.png

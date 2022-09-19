@@ -2,10 +2,12 @@
 title: "The Six Tones"
 category: group
 tags: group 
+related: true
+related_tag: sixtones
 order: 9
 created: 2014-10-09 
 updated: 2022-08-23
-layout: single
+layout: single_portfolio
 excerpt: "The Six Tones is a platform for an encounter between traditional and experimental cultures in Asia and the west. The core of this practice is, since 2006, an ongoing project of mutual learning between musicians from Vietnam and Sweden."
 header:
   image: /assets/images/sixtones/banner_sixt.jpg

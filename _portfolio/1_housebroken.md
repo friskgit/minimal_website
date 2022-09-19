@@ -3,7 +3,9 @@
   category: electronic
   tags: installation
   updated: 2005-03-14
-  layout: single
+  layout: single_portfolio
+  related: true
+  related_tag: 
   order: 1
   excerpt: "in collaboration with Stefan Lundgren, comissioned by Kabusa Konsthall"
   header: 

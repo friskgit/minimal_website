@@ -2,10 +2,12 @@
 title: "Mongrel"
 category: group
 tags: group
+related: true
+related_tag: mongrel
 order: 15
 created: 2014-10-09 
 updated: 2022-08-23
-layout: single
+layout: single_portfolio
 excerpt: "The duo Mongrel, consisting of Anders Elberling and Henrik Frisk, has worked together for severeal years on numerous audio/visual projects. The overarching ambition with their work is to critically examine the nature of the relation between audio and video. Their works have been performed in Denmark, Sweden, Belgium, Germany, Portugal and Vietnam among other countries."
 header:
   overlay_image: /assets/images/mongrel/mongrel_banner.jpg

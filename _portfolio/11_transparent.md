@@ -2,9 +2,11 @@
 title: "The Transparent I"
 category: chamber work
 tags: composition electronic
+related: true
+related_tag: transparent
 order: 11
 updated: 2014-01-10
-layout: single
+layout: single_portfolio
 excerpt: "Commissioned by the Swedish Arts Council and Ensemble Ars Nova"
 header: 
   overlay_image: /assets/images/transparenti-score_banner.jpg

@@ -77,15 +77,15 @@ layout: default
   {% assign maxRelatedCounter = 0 %}
   {% assign relatedPosts = '' | split: ',' %}
   {% assign sortedPosts = site.posts | sort: 'date' | reverse %}
-  
+  {% assign identifier = page.related_tag %}
+
+  <!-- This looks for all posts that has a tag that matches this pages identifier. -->
   {% for post in sortedPosts %}
     {% assign sameTagCount = 0 %}
-    {% assign commonTags = '' %}
     {% for tag in post.tags %}
       {% if post.url != page.url %}
-        {% if page.tags contains tag %}
-          {% assign sameTagCount = sameTagCount | plus: 1 %}
-          {% assign commonTags = commonTags | append: tag %}
+        {% if tag contains identifier %}
+  {% assign sameTagCount = sameTagCount | plus: 1 %}
         {% endif %}
       {% endif %}
     {% endfor %}
@@ -98,7 +98,7 @@ layout: default
   {% endif %}
 {% endfor %}
 
-  {% if page.id and page.related and site.related_posts.size > 0 %}
+  {% if page.id and page.related and relatedPosts.size > 0 %}
   <div class="page__related">
       <h2 class="page__related-title">{{ site.data.ui-text[site.locale].related_label | default: "You May Also Enjoy" }}</h2>
       <div class="grid__wrapper">

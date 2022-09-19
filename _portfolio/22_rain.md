@@ -2,9 +2,11 @@
 title: "Rain will evaporate"
 category: installation
 tags: work 
+related: true
+related_tag: rain
 order: 22
 updated: 2022-09-05
-layout: single
+layout: single_portfolio
 excerpt: "A sound installation for the sculpure parc Ulvhälls Hällar, Strägnäs (2022)"
 header: 
   overlay_image: /assets/images/rain_banner.jpg

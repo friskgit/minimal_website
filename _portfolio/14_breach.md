@@ -2,9 +2,11 @@
 title: "Continuous Breach"
 category: jazz
 tags: composition electronic
+related: true
+related_tag: breach
 order: 14
 updated: 2009-07-10
-layout: single
+layout: single_portfolio
 excerpt: "for Copenhagen Art Ensemble and 4 speakers"
 header: 
   overlay_image: /assets/images/continuous_score_banner.jpg

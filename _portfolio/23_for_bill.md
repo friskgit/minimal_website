@@ -3,9 +3,11 @@ title: "For Bill, Rising"
 category: composition
 tags: composition
 excerpt: "A composition for the Klangkupolen at the Royal College of Music in Stockholm."
+related: true
+related_tag: rising
 order: 23
 updated: 2022-09-05
-layout: single
+layout: single_portfolio
 header: 
   overlay_image: "/assets/images/locomotion_banner.png"
   teaser: "/assets/images/snare_teaser.jpg"

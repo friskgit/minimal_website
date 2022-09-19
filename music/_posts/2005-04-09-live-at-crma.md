@@ -2,7 +2,7 @@
  title: "Live at CRMA"
  id: 14
  date: 2005-04-09
- tags: improvised
+ tags: improvised improv
  category: music
  excerpt: "Fifth track..."
  author_profile: false

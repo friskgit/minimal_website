@@ -2,10 +2,12 @@
 title: "etherSound"
 category: installation
 tags: installation improvisation
+related: true
+related_tag: ethersound
 order: 6
 created: 2004-06-30
 updated: 2022-08-23
-layout: single
+layout: single_portfolio
 excerpt: "Sound installation comissioned by curator Miya Yoshida"
 header:
   image: /assets/images/ether/etherCollage.jpg

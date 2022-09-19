@@ -2,9 +2,11 @@
 title: Machinic Propositions
 category: electronic video
 tags: composition video
+related: true
+related_tag: machinic
 order: 18
 updated: 2018-01-16
-layout: single
+layout: single_portfolio
 excerpt: "A composition for video and electronics by Mongrel"
 header:
   teaser: /assets/images/mongrel/face-green_teaser.jpg

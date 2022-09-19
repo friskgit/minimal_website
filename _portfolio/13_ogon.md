@@ -2,9 +2,11 @@
 title: "Månens Gråa Ögon"
 category: jazz
 tags: composition
+related: true
+related_tag: ogon
 order: 13
 updated: 2014-01-10
-layout: single
+layout: single_portfolio
 excerpt: "A piece for Kopasetic Orchestra, toured in 2011 and 2012."
 header:
   overlay_image: /assets/images/manen_banner.jpg

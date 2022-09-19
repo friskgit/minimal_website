@@ -2,7 +2,7 @@
  title: "Frendin/Frisk Duo live in Halmstad"
  id: 6357
  date: 2012-11-17
- tags: improvised
+ tags: improvised frendin
  category: music
  excerpt: "Frendin Frisk Duo live in Halmstad"
  author_profile: false

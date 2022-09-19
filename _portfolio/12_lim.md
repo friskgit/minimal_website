@@ -2,10 +2,12 @@
 title: "lim"
 category: group
 tags: group
+related: true
+related_tag: lim
 order: 12
 created: 2015-03-01 
 updated: 2022-08-23
-layout: single
+layout: single_portfolio
 excerpt: "lim is a collective band playing improvised and metaphysical music. As a trio we have been playing since 1997 but in 2013 we were joined by guitarist Samuel Hällqvist. As a group lim has always worked long and hard on the music in order to achieve the utmost level of spontaneity within the sometimes complex structures."
 header:
   image: /assets/images/lim/limlaugh_head.jpg

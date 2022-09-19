@@ -2,7 +2,7 @@
  title: "Frendin/Frisk Duo at Panora 2007"
  id: 110
  date: 2007-10-03 10:17:19.000000
- tags: music
+ tags: music frending
  category: blog
  excerpt: "Recording from concert at Panora in Malmö 2007."
  author_profile: false

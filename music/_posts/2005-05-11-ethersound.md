@@ -2,7 +2,7 @@
  title: "etherSound"
  id: 8
  date: 2005-05-11
- tags: composed
+ tags: composed ethersound
  category: music
  excerpt: "This is the output of five consecutive, slightly overlapping messages in the current (May 2005) version of etherSound...."
  author_profile: false

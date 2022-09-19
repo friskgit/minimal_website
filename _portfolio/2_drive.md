@@ -4,7 +4,9 @@ category: chamber
 tags: composition
 created: 2005-06-07
 updated: 2022-08-23
-layout: single
+layout: single_portfolio
+related: true
+related_tag: drive
 order: 2
 excerpt: "for Electric Viola Grande and electronics"
 header:

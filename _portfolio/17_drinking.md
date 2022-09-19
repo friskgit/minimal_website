@@ -4,8 +4,9 @@ category: chamber
 tags: electronic composition
 order: 17
 related: true
+related_tag: drinking
 updated: 2014-11-28
-layout: single
+layout: single_portfolio
 excerpt: "Drinking: Composed from a concept by Bill Brooks on a poem by W. B. Yeats"
 header: 
   teaser: /assets/images/drinking_score_p1_teaser.jpg
@@ -45,9 +46,9 @@ Drinking is based on a concept by Bill Brooks and "A Drinking Song" by W. B. Yea
 
 "After Yeats is not a score for performance but rather a method for
 determining a score; it extends W. B. Yeats’s practice of poetic
-declamation to languages other than English. After Yeats describes a
+declamation to languages other than English. *After Yeats* describes a
 collaboration between a performer, who declaims a Yeats poem in translation, self-accompanied by a plucked string instrument, and a composer, who works at a remove to observe and amplify the
-implications of the declamation."
+implications of the declamation. *Drinking* is an independent instance of the meta-composition *After Yeats*.
 
 <h2>Programkommentar (SE)</h2>
 Drinking är baserat på ett koncept av Bill Brooks och "A Drinking Song" av W. B. Yeats:

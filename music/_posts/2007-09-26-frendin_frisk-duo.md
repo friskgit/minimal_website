@@ -2,7 +2,7 @@
  title: "Frendin/Frisk duo"
  id: 6332
  date: 2007-09-26
- tags: improvised
+ tags: improvised frendin
  category: music frendin
  excerpt: "Frendin Frisk Duo (Henrik Frisk - laptop, and Henrik Frendin - viola): Recording (video and audio) from a concert in Malmö in September 2007...."
  author_profile: false

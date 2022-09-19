@@ -1,10 +1,16 @@
 ---
 title: "The Six Tones"
 category: chamber
+related: true
+related_tag: tones
 order: 8
 tags: composition electronics
 updated: 2007-10-29
-layout: single
+layout: single_portfolio
+related: true
+related_tag: 
+related: true
+related_tag: 
 order: 2
 excerpt: "A trio dedicated to Than Thuy and Ngo Tra My."
 header: 

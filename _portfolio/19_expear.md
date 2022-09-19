@@ -2,10 +2,12 @@
 title: "expEAR"
 category: group
 tags: group
+related: true
+related_tag: expear
 order: 19
 created: 2015-03-01 
 updated: 2022-08-23
-layout: single
+layout: single_portfolio
 excerpt: "expEAR is formed out of the two words expression/explore and hear/ear. It is a dynamic group with Henrik Frisk, Maggi Olin and Peter Nilsson as its core. Guests will be invited to explore, listen and interact. Some of the goals of expEAR are to learn more about ways in which we as musicians and as group can develop, how improvised music can develop and communicated among us, and how it can be communicated to listeners."
 header:
   image: /assets/images/expear/group_head.jpg

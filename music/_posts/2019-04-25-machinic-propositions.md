@@ -2,7 +2,7 @@
  title: "Machinic Propositions"
  id: 6371
  date: 2019-04-25
- tags: composed
+ tags: composed machinic
  category: music
  excerpt: "Machinic propositions is an audio/visual work by the duo Mongrel. It's an attempt to critically examine Deleuze and Guattari's theorems of deterritorialization as found in chapter seven and ten of the..."
  author_profile: false

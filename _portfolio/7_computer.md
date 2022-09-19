@@ -2,9 +2,11 @@
  title: "Improvisations and other pieces"
  category: improvised
  tags: improvisation composition 
+ related: true
+ related_tag: improv
  order: 7
  updated: 2005-05-03
- layout: single
+ layout: single_portfolio
  excerpt: "A collection of pieces that I have performed numerous times. These are all more or less works in progress."
  header: 
    image: /assets/images/hanoi_computer.jpg

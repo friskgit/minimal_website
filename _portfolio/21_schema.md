@@ -2,9 +2,11 @@
 title: "Image Schema"
 category: electronic
 tags: video composition
+related: true
+related_tag: schema
 order: 21
 updated: 2019-12-01
-layout: single
+layout: single_portfolio
 excerpt: "A composition for video and electronic score"
 header: 
   overlay_image: /assets/images/schema_banner.jpg

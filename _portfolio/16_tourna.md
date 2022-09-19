@@ -1,10 +1,12 @@
 ---
 title: "Elle a dansé, il se tourna"
 category: electronic
+related: true
+related_tag: tourna
 order: 16
 date: 2013-10-01
 tags: video electronic composition
-layout: single
+layout: single_portfolio
 excerpt: "An audio-visual work for three screens and eight speakers by Mongrel"
 header:
   overlay_image: /assets/images/mongrel/iladanse_banner.jpg

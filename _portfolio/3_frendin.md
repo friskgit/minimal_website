@@ -3,7 +3,9 @@ title: "Frisk/Frendin"
 category: group
 created: 2006-01-10 
 updated: 2022-08-23
-layout: single
+layout: single_portfolio
+related: true
+related_tag: frendin
 order: 3
 tags: group
 excerpt: "Frendin/Frisk is a duo with that has toured in USA, Canada, Iceland, Germany and Scandinavia. We play a mix of improvised and contemporary music with a sense of humor in performance."
