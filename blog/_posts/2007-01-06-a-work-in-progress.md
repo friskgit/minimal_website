@@ -9,6 +9,7 @@ Following this link, you can download an article I've written that will soon be 
  author_profile: false
  show_date: true
  image: 
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

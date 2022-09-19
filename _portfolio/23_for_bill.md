@@ -2,18 +2,21 @@
 title: "For Bill, Rising"
 category: composition
 tags: composition
+excerpt: "A composition for the Klangkupolen at the Royal College of Music in Stockholm."
 order: 23
 updated: 2022-09-05
 layout: single
-excerpt: "A composition for the Klangkupolen at the Royal College of Music in Stockholm."
 header: 
-  overlay_image: /assets/images/locomotion_banner.png
-  teaser: /assets/images/snare_teaser.jpg
+  overlay_image: "/assets/images/locomotion_banner.png"
+  teaser: "/assets/images/snare_teaser.jpg"
+  actions:
+  - label: "Listen"
+    url: /music/2022/09/15/rising/
 sidebar:
 - title: About
   image: /assets/images/snare_teaser.jpg
   image-alt: Snare drum
-  text: "Klangkupolen at the Royal College of Music in Stockholm, is a concerthall with 29.4 speakers in a dome like configuration."
+  text: "Composition for klangkupolen at the Royal College of Music in Stockholm, a concerthall with 29.4 speakers in a dome like configuration."
 - title: Year
   text: 2022
 - title: Category
@@ -23,14 +26,12 @@ sidebar:
 - title: Record updated
   text: 2022-09-05
 ---
+
 ## Program note (EN)
 
+The title of this piece refers to my friend Bill (Brunson) and composer Jim Tenney (the reference in the title being to his piece "For Ann, Rising") both of whom have been incredibly important to me. The basic musical idea behind this composition is to use a simple synthesis model and create timbral variations through combining repetitions of the original sound. The tonality and the rhythms are both derived from a 7-limit, 11-note scale. In the piece rhythms are treated as slowed down intervals and vice versa. The textual representation of the piece is done in Org-mode and the extension for literal programming called Babel. This is an experiment in allowing constructing recreatable snippets from which the piece is created.
 
-The title of this piece refers to my friend Bill (Brunson) and composer Jim Tenney (the reference in the title being to his piece "For Ann, Rising") both of whom have been incredibly important to me. The basic musical idea behind this composition is to use a simple synthesis model and create timbral variations through combining repetitions of the original sound. The tonality and the rhythms are both derived from a 7-limit, 11-note scale. In the piece rhythms are treated as slowed down intervals and vice versa. 
-
-
-The basic idea behind this composition is to use a simple synthesis model and create timbral variations through combining repetitions of the original sound. The tonality and the rhythm is derived from a 7-limit, 11-note scale. In the piece rhythms are treated as slowed down intervals and vice versa. The textual representation of the piece is done in Org-mode and the extension for literal programming called Babel. This is an experiment in allowing constructing recreatable snippets from which the piece is created.
-
+## The background to the process
 
 The general question of how to document artistic processes is largely unsolved, mainly because each process is relatively unique. The particular case of documenting compositional processes in electronic music, let alone attempting to document the actual sonic objects that are the result of such processes, has its own set of challenges. Not only due to the fact that it is difficult, the benefit of documenting is sometimes less than the time consumed by doing it. There are at least two aspects to this: (i) In a world where almost everything is constantly recorded or potentially so, meticulous documentation of ones process may seem ubiquitous. Almost everything leaves a digital trace and that this may be difficult to trace later is easily forgotten. (ii) Even if the compositional process <i>may</i> be of interest to the composer or others, it is still not necessarily worth the while. Recreating from memory may be just as valid, and perhaps artistically more apt. After all, the documenting force is to some degree rooted in a modernistic view where the key to the work lies in the material with which it was created.
 

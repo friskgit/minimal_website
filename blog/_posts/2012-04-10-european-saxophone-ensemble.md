@@ -8,6 +8,7 @@
  author_profile: false
  show_date: true
  image: /assets/images/diary/archives/ESE-thumb.jpeg
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

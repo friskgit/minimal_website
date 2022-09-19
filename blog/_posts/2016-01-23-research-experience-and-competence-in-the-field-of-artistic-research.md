@@ -10,6 +10,7 @@ There are numerous examples from schools and universities, research committe..."
  author_profile: false
  show_date: true
  image: 
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

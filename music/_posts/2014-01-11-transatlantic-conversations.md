@@ -11,6 +11,7 @@ www.sr.se | Transatlantic Conversations..."
  author_profile: false
  show_date: true
  image: 
+ show_related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

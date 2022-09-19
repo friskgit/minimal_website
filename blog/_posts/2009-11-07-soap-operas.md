@@ -12,6 +12,7 @@ What strikes me about this passage is how it reveals something about the attenti
  author_profile: false
  show_date: true
  image: 
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

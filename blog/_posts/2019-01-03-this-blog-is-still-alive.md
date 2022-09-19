@@ -8,6 +8,7 @@
  author_profile: false
  show_date: true
  image: http://www.henrikfrisk.com/bilder/mon_20190101_001.jpg
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

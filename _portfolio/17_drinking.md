@@ -3,6 +3,7 @@ title: "Drinking"
 category: chamber
 tags: electronic composition
 order: 17
+related: true
 updated: 2014-11-28
 layout: single
 excerpt: "Drinking: Composed from a concept by Bill Brooks on a poem by W. B. Yeats"

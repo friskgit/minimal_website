@@ -24,10 +24,10 @@ sidebar:
   text: 2022-09-05
 gallery:
 - url: /assets/images/rain-1.jpg
-  image_path: /assets/images/rain-1.jpg
+  image_path: /assets/images/rain-1_large.jpg
   alt: From the site
 - url: /assets/images/rain-2.jpg
-  image_path: /assets/images/rain-2.jpg
+  image_path: /assets/images/rain-2_large.jpg
   alt: From the site
 - url: /assets/images/rain-3.jpg
   image_path: /assets/images/rain-3.jpg

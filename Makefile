@@ -16,20 +16,21 @@
 #
 # 24 September 2007	Henrik Frisk	mail@henrikfrisk.com
 
-SOURCE_DIR          := ./
+SOURCE_DIR          := .
 WEB_DIR	:= $(SOURCE_DIR)/_site
 ASSETS := $(SOURCE_DIR)/assets
 IMG_DIR           := $(SOURCE_DIR)/assets/images
 OUTPUT_DIR        := $(SOURCE_DIR)/_site
 HTML_DIR          := $(SOURCE_DIR)/_pages
 REQUIRED_DIRS      = $(OUTPUT_DIR) $(HTML_DIR) $(IMG_DIR)
+SERVER 	= henrikfr@henrikfrisk.com:www/
 
 AUTHOR := "Henrik Frisk, mail<AT>henrikfrisk<DOT>com"
 
 BIN	= /usr/bin
 PDFLATEX = /usr/bin/pdflatex
 HTLATEX = /usr/bin/htlatex
-RSYNC	= $(BIN)/rsync -avuzhr --delete
+RSYNC	= $(BIN)/rsync -avuzhr 
 WC = /usr/bin/wc
 GEM = ~/gems
 JEKYLL = $(GEM)/bin/jekyll
@@ -39,11 +40,12 @@ BBL       =  $(source:.tex=.bbl)
 HTML	= $(HTML_DIR)/index.html
 CSS	= $(ASSETS)/css/main.
 
-SERVER 	= henrikfr@henrikfrisk.com:www/
-
 source := $(wildcard *.md)
 cv_source := ~/Documents/info/cv/curriculum/CurriculumVitae-2022.tex
-
+img = default.jpg
+current_img := $(IMG_DIR)/$(img)
+img_edit = $(img:.jpg=_edit.jpg)
+img_edit_l = $(img:.jpg=_large.jpg)
 #source := utvalda-publikationer.tex
 
 ## include out/module.mk
@@ -54,7 +56,7 @@ cv_source := ~/Documents/info/cv/curriculum/CurriculumVitae-2022.tex
 .aux.bib: ; $(BIBTEX) $*
 
 ### TARGETS
-DVI       = $(source:.tex=.dvi)
+DVI = $(source:.tex=.dvi)
 BLG       = $(source:.tex=.blg)
 AUX       = $(source:.tex=.aux)
 LOG       = $(source:.tex=.log)
@@ -65,7 +67,7 @@ PDF	      = $(source:.tex=.pdf)
 
 all: site sync
 
-.PHONY: echo_src sync
+.PHONY: echo_src sync img_info
 
 echo_src:
 	echo $(JEKYLL)
@@ -75,6 +77,21 @@ echo_src:
 
 echo_pdf:
 	echo $(pdfs) 
+
+img_info:
+	identify $(IMG_DIR)/$(img)
+
+img_scale: 
+	convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% -scale 75% $(IMG_DIR)/$(img) $(IMG_DIR)/$(img_edit)
+
+img_scale_large: 
+	convert -strip -interlace Plane -gaussian-blur 0.05 -quality 85% -resize 2560x1538^ $(IMG_DIR)/$(img) $(IMG_DIR)/$(img_edit_l)
+
+img_mv:
+	mv $(IMG_DIR)/$(img_edit) $(IMG_DIR)/$(img)
+
+test: 
+	@echo $@
 
 cp_cv: $(cv_source)
 	cp $(cv_source) $(HTML_DIR)/curri.html
@@ -86,8 +103,9 @@ htlatex: $(cv_source)
 site :
 	$(JEKYLL) build
 
-sync : site
-	$(RSYNC) $(SRC_DIR)/ $(SERVER)
+sync :
+	@echo "Running rsync on _site...\n\n"
+	$(RSYNC) $(WEB_DIR)/ $(SERVER)
 
 clean:
 	$(JEKYLL) clean

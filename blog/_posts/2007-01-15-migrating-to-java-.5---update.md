@@ -9,6 +9,7 @@ I realized what was the problem. In essence it is the difference between all fre
  author_profile: false
  show_date: true
  image: 
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

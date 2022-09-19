@@ -9,6 +9,7 @@ If the connection between input and output is too obvious the result is predicta
  author_profile: false
  show_date: true
  image: 
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

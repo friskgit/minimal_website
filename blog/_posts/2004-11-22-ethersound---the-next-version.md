@@ -8,6 +8,7 @@
  author_profile: false
  show_date: true
  image: /assets/images/diary/mapping-table-thumb.gif
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

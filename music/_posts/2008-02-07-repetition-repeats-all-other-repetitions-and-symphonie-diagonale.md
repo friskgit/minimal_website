@@ -9,6 +9,7 @@ This is a recording of the version of my piece for Stefan Ã–stersjÃ¶, Repet
  author_profile: false
  show_date: true
  image: 
+ show_related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

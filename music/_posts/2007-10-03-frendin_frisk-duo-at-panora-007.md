@@ -4,14 +4,11 @@
  date: 2007-10-03 10:17:19.000000
  tags: music
  category: blog
- excerpt: "Get the Flash Player to see this player.
-
-        var s2 = new SWFObject('http://www.henrikfrisk.com/script/flvplayer.swf','playlist','320','240','7');
-        s2.addParam('allowfullscreen','true');
- ..."
+ excerpt: "Recording from concert at Panora in Malmö 2007."
  author_profile: false
  show_date: true
  image: 
+ show_related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

@@ -12,6 +12,7 @@ Free Improvisation: Researching the Acoustic Space is a very relevant contributi
  author_profile: false
  show_date: true
  image: 
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

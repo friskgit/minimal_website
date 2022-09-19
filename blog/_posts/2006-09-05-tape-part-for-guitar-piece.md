@@ -8,6 +8,7 @@
  author_profile: false
  show_date: true
  image: http://www.henrikfrisk.com/diary/files/repetition_excerpt1.jpg
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---

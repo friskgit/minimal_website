@@ -4,11 +4,12 @@
  date: 2020-07-12 12:02:42.000000
  tags: writing
  category: blog
- excerpt: "
-The idea of being able to perform at a distant in real time, together with musicians scattered around the world, is not new. It is probably more affordable and easier to accomplish than it was 20 yea..."
+ excerpt: "The idea of being able to perform at a distant in real time, together with musicians scattered around the world, is not new. It is probably more affordable and easier to accomplish than it was 20 yea..."
  author_profile: false
  show_date: true
+ related: true
  image: 
+ related: true
  layout: single
  permalink: /:categories/:year/:month/:day/:title/
 ---
