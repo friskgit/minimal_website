@@ -2,6 +2,8 @@
 main:
   - title: "about"
     url: /about/
+  - title: "projects and works"
+    url: /portfolio/
   - title: "news"
     url: /news/
   - title: "listen"
@@ -10,8 +12,6 @@ main:
     url: /blog/
   - title: "recordings"
     url: /recordings/
-  - title: "projects and works"
-    url: /portfolio/
 
 bio:
   - title: "More"
