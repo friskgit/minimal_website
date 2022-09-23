@@ -28,4 +28,6 @@ codekit-config.json
 _asset_bundler_cache
 _site
 /_security/
-/assets/files/
+/assets/files/documents
+/assets/files/diary
+/assets/files/music
