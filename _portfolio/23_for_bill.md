@@ -13,7 +13,7 @@ header:
   teaser: "/assets/images/snare_teaser.jpg"
   actions:
   - label: "Listen"
-    url: /music/2022/09/15/rising/
+    url: /music/2022/06/26/rising/
 sidebar:
 - title: About
   image: /assets/images/snare_teaser.jpg
