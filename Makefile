@@ -16,6 +16,7 @@
 #
 # 24 September 2007	Henrik Frisk	mail@henrikfrisk.com
 
+SHELL := /bin/bash
 SOURCE_DIR          := .
 WEB_DIR	:= $(SOURCE_DIR)/_site
 ASSETS := $(SOURCE_DIR)/assets
@@ -23,17 +24,19 @@ IMG_DIR           := $(SOURCE_DIR)/assets/images
 OUTPUT_DIR        := $(SOURCE_DIR)/_site
 HTML_DIR          := $(SOURCE_DIR)/_pages
 REQUIRED_DIRS      = $(OUTPUT_DIR) $(HTML_DIR) $(IMG_DIR)
-SERVER 	= henrikfr@henrikfrisk.com:www/
+SERVER 		:= public_html
+FTP_SERVER  	:= csrv11.aname.net
 
 AUTHOR := "Henrik Frisk, mail<AT>henrikfrisk<DOT>com"
 
 BIN	= /usr/bin
 PDFLATEX = /usr/bin/pdflatex
 HTLATEX = /usr/bin/htlatex
-RSYNC	= $(BIN)/rsync -avuzhr 
+RSYNC	= $(BIN)/rsync -avuzhr
+FTP = $(SOURCE_DIR)/ftp_command
 WC = /usr/bin/wc
-GEM = ~/gems
-JEKYLL = $(GEM)/bin/jekyll
+GEM = /Users/henrik_frisk/.gem
+JEKYLL = `which jekyll`
 
 PS        = $(source:.tex=.ps)
 BBL       =  $(source:.tex=.bbl)
@@ -63,7 +66,7 @@ LOG       = $(source:.tex=.log)
 LOGS      = $(OUTPUT_DIR)/$(AUX) $(OUTPUT_DIR)/$(BLG) $(OUTPUT_DIR)/$(LOG)
 
 PS        = $(source:.tex=.ps)
-PDF	      = $(source:.tex=.pdf)
+PDF	  = $(source:.tex=.pdf)
 
 all: site sync
 
@@ -90,22 +93,23 @@ img_scale_large:
 img_mv:
 	mv $(IMG_DIR)/$(img_edit) $(IMG_DIR)/$(img)
 
-test: 
-	@echo $@
-
 cp_cv: $(cv_source)
 	cp $(cv_source) $(HTML_DIR)/curri.html
-
-htlatex: $(cv_source)
-	$(HTLATEX) $(cv_source) $(htlatex_arg)
-# Some latex file needs to be run at least three times to be sure to resolve all references.
 
 site :
 	$(JEKYLL) build
 
-sync :
-	@echo "Running rsync on _site...\n\n"
-	$(RSYNC) $(WEB_DIR)/ $(SERVER)
+sync : site
+	@echo "Running site and ftp sync on _site...\n\n"
+	$(shell $(FTP))
+
+synctest :
+	@echo "Running sync test"
+	$(shell ./ftp_command_test)
+
+synconly : 
+	@echo "Running ftp on _site...\n\n"
+	$(shell $(FTP))	
 
 clean:
 	$(JEKYLL) clean

@@ -16,7 +16,7 @@
 {% unless page.image contains 'spacer.gif' %}
 {% endunless %}
 
-An excerpt of my piece [The Six Tones]({% link _portfolio/9_sixtones.md %}) from a concert at Atalante in Gothenburg, Sweden in 2009 with [The Six Tones]({% link _portfolio/9_sixtones.md %}).
+An excerpt of my piece [The Six Tones]({% link _portfolio/9_sixtones.md %}) from a concert at Atalante in Gothenburg, Sweden in 2009 with the group [The Six Tones]({% link _portfolio/9_sixtones.md %}).
 
 
 {% include video id='HJqzyDzXV5g' provider='youtube' %}

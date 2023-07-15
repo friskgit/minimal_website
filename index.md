@@ -1,5 +1,5 @@
 ---
-title: "Space"
+title: "Henrik Frisk: sound, space and more"
 layout: splash
 permalink: /splash-page/
 date: 2022-09-05T11:48:41-04:00
@@ -20,7 +20,7 @@ feature_row:
   - title: "Writing"
     excerpt: "This is a similarly diverse collection of written texts ranging from technical notes, blog posts on to full articles. Most of these are in English but there are Swedish posts as well. Follow 'about' and on to publications for published articles. Though the list is complete all are not downloadable yet."
     url: "/blog/"
-    btn_label: "Read More"
+    btn_label: "Browse"
     btn_class: "btn--primary"
   - title: "Projects and works"
     excerpt: "Under 'projects and works' I have collected compositions as well as current projects (such as groups and other collabortions). Depending on the type of page the material differs a bit. These are in many occasions connected to the the recordings, so this is an entry point to listen to some of my music as well."

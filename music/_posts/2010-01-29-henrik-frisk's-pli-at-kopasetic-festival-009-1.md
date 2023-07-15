@@ -17,5 +17,4 @@
 
 This is a video from the premiere of my band Pli. The concert was held at Victoriateatern in MalmÃ¶ and features some of my favorite musicians. This tune is an arrangement and re-composition that I did of the jazz standard <it>Like Someone in Love</it> onto which we superimpose the original song by Jimmy van Heusen. The solo in the middle is a trio with Sten Sandell on piano, myself on tenor and Peter Nilsson on drums.
 
-
-<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/tJ8XrTQj-7c&hl=en_US&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/tJ8XrTQj-7c&hl=en_US&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="425" height="344"></embed></object>
+{% include video id="tJ8XrTQj-7c" provider="youtube" %}

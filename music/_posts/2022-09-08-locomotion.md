@@ -4,7 +4,7 @@
  date: 2022-09-08
  tags: composed
  category: music
- excerpt: A performance of Locomotion.
+ excerpt: A performance of Locomotion, a piece for two concert halls and many speakers.
  show_date: true
  image: /assets/images/locomotion_screendump-1
  media: 

@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Script to sync the local _site directory to the server.
+#
+# This is run from the Makefile: make -k sync which
+# also builds the site.
+
+TARGET='public_html'
+SOURCE='_site/'
+
+lftp -f "
+     open csrv11.aname.net
+     user buezdgna `security find-generic-password -a ${USER} -s misshosting_ftp -w`
+     mirror -R --reverse --delete --verbose $SOURCE $TARGET
+     bye
+     "
