@@ -1,5 +1,5 @@
 ---
-title: Blog
+title: <i class="fas fa-edit fa-2x" aria-hidden="true"></i>
 type: pages
 values:
 layout: short_post_list

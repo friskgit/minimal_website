@@ -101,7 +101,7 @@ site :
 
 sync : site
 	@echo "Running site and ftp sync on _site...\n\n"
-	$(shell $(FTP))
+	$(shell ./ftp_command)
 
 synctest :
 	@echo "Running sync test"

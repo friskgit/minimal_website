@@ -1,5 +1,5 @@
 ---
-title: News
+title: <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
 type: pages
 values:
 layout: short_post_list

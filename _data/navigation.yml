@@ -1,11 +1,11 @@
 # main links
 main:
+  - title: "news"
+    url: /news/
   - title: "about"
     url: /about/
   - title: "projects and works"
     url: /portfolio/
-  - title: "news"
-    url: /news/
   - title: "listen"
     url: /music/
   - title: "writing" 
@@ -14,7 +14,7 @@ main:
     url: /recordings/
 
 bio:
-  - title: "More"
+  - title: "Biography and more"
     children:
       - title: "Biography"
         url: /about/bio/

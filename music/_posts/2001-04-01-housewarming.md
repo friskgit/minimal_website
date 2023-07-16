@@ -16,6 +16,6 @@
 {% unless page.image contains 'spacer.gif' %}
 {% endunless %}
 
-This is the music for a collaboration with Swedish artist Stefan Lundgren.
+This is the music for a collaboration with Swedish artist [Stefan Lundgren]({% link _portfolio/1_housebroken.md %})
 
 ![](http://homepage.mac.com/henrikfrisk/Music/pikene/housewarming.mp3)
