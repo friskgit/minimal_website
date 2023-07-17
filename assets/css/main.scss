@@ -247,10 +247,10 @@ img.align-right {
 }
 
 // Testing page width change
-.page {
-  width: calc(100% - 250px);
-  padding-right: 250px;
-}
+// .page {
+//   width: calc(100% - 250px);
+//   padding-right: 250px;
+// }
 
 // Adding more space before first item
 
@@ -265,7 +265,18 @@ img.align-right {
 
 // making sidebar more narrow
 
-.sidebar {
-    width: 250px;
-    padding-top: 55px;
+// .sidebar {
+//     width: 250px;
+//     padding-top: 55px;
+// }
+
+// verbal part of title
+
+span.b_title {
+    padding-left: 20px;
+}
+
+// remobve name below image
+.sidebar .author__name {
+  display: none;
 }

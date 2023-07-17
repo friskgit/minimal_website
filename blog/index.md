@@ -1,5 +1,5 @@
 ---
-title: <i class="fas fa-edit fa-2x" aria-hidden="true"></i>
+title: <i class="fas fa-edit fa-1x" aria-hidden="true"></i><span class="b_title">writing</span>
 type: pages
 values:
 layout: short_post_list

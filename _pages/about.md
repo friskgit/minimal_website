@@ -1,19 +1,19 @@
 ---
-title: ""
+title: <i class="fas fa-address-card fa-1x" aria-hidden="true"> </i><span class="b_title">about</span>
 type: pages
+values:
 sidebar:
   title: "Resources"
   nav: bio
-values:
 layout: empty
 author_profile: false
-breadcrumbs: false
+breadcrumbs: true
 permalink: /about/
 ---
 
-![the big ear]( /assets/images/orat.jpg ){: .text_nowrap}
-
 This site is dedicated to sharing information about what I do as a musician, composer and researcher. Feel free to contact me.
+
+![the big ear]( /assets/images/orat.jpg ){: .text_nowrap}
 
 <!-- The site is an infinite work-in-progress and perhaps more of an archive than a promotion for myself. I do however use this site, among other things, as a virtual stage posting new recordings and pieces every now and then. -->
 
@@ -26,3 +26,10 @@ This site is dedicated to sharing information about what I do as a musician, com
 
 <a href="/about/images/" class="pagination--pager" title="Images">Images</a>
 </nav>
+
+<!-- 
+sidebar:
+  title: "Resources"
+  nav: bio
+  
+	-->

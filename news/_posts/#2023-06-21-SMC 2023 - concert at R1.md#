@@ -1,0 +1,24 @@
+---
+title: SMC2023Concert at R1: playing /Chopper/ by Chris Chafe 
+id: 
+date: 2023-06-15 12:41
+tags: electoronic
+category: news
+excerpt: "SMC 2023 in Stockholm presents an evening of music at Reaktorhallen in Stockholm."
+author_profile: false
+show_date: true
+image: /assets/images/
+media: /assets/files/music/media/
+related: true
+layout: single
+permalink: /:categories/:year/:month/:day/:title/
+---
+{% unless page.image contains 'spacer.gif' %}
+![image-right]({{ page.image }}){: .align-right .news-flash}
+{% endunless %}
+
+
+SMC 2023 presents a concert in the unique environment of *Reaktorhallen* at KTH in Stockholm. Formerly the home of the first Swedish nuclear reactor is now a concert scene located 25 meters below ground. The program featured Giovanni Onorato, *licebyc~*, Juraj Kojs, *Orchid Music*, Mike Mulshine, *Fail More*, Olof Misgeld, *Dancing Dots*, and Chris Chafe's *Chopper*.
+
+In the last piece *Chopper* I played together with Chris (located in California) and Marise van Zyl on laptop. The piece also featured the rare Wurliter organ in the hall.
+

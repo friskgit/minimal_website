@@ -1,12 +1,13 @@
 ---
 title: Biography
 sidebar:
+  title: "Resources"
   nav: "bio"
 type: pages
 values:
 breadcrumbs: true
 layout: single
-author_profile: true
+author_profile: false
 breadcrumbs: true
 permalink: /about/bio/
 ---

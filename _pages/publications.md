@@ -1,11 +1,12 @@
 ---
 title: List of publications
 layout: single
-author_profile: true
+author_profile: false
+sidebar:
+  title: "Resources"
+  nav: "bio"
 breadcrumbs: true
 permalink: /about/publications/
-sidebar:
-  nav: "bio"
 scholar:
   bibliography: references.bib
   sort_by: year

@@ -1,5 +1,5 @@
 ---
-title: <i class="fas fa-rss fa-2x" aria-hidden="true"></i>
+title: <i class="fas fa-rss fa-1x" aria-hidden="true"></i><span class="b_title">news</span>
 type: pages
 values:
 layout: short_post_list
